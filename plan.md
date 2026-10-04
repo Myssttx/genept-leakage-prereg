@@ -24,8 +24,8 @@ What I could confirm on official BIBM 2026 pages on Oct 4:
 **Not verified (the IDASB site was unreachable from my environment):** IDASB's own deadline, whether it was extended, its page limit, and its presentation format. The IDASB 2024 site was at `combio-lezhang.online/IDASB2024/`, so the 2026 page is probably `combio-lezhang.online/IDASB2026/`. Please check that page and the BIBM submission system (wi-lab.com cyberchair, workshop "ws_submit") for the IDASB entry.
 
 **Budget:**
-- Registration fits under $800 **only if you qualify for a student rate** ($560 with IEEE student membership, which costs extra; $675 without). Whether a high-school student qualifies for BIBM's student rate is **not stated**; email the BIBM registration chair before paying. At the non-member rate ($960) it is **over budget**.
-- If IDASB requires in-person presentation, add travel to Dallas, Dec 1-4. The related BIBM Undergraduate & High School Symposium requires in-person presentation and a parent to accompany high-school authors ([UGHS](https://bibm2026-hs.github.io/)); its deadline (Sept 7) has passed.
+- Registration fits under $800 **only if you qualify for a student rate** ($560 with IEEE student membership, which costs extra; $675 without). Whether a solo author qualifies for BIBM's student rate is **not stated**; email the BIBM registration chair before paying. At the non-member rate ($960) it is **over budget**.
+- If IDASB requires in-person presentation, add travel to Dallas, Dec 1-4. The related BIBM UGHS symposium requires in-person presentation ([UGHS](https://bibm2026-hs.github.io/)); its deadline (Sept 7) has passed.
 
 **Schedule reality:** if IDASB did not extend past Sept 27, this venue is closed. If it extended to about Oct 10, you have about six days, overlapping the AAIML Oct 10 and TMLR Oct 30 work. Only Idea 1 below is small enough for that window.
 

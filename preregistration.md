@@ -119,7 +119,7 @@ All rules are implemented in `code/design_lib.py` and run by `code/stage2_freeze
 
 ## 5. Deviations
 
-None yet.
+- **Deviation 1 (Oct 4, 2026, after the pilot, before any main-term run):** added a truncation diagnostic (code/truncation.py). The pilot showed that MiniLM truncates long summaries, so masked words beyond the limit cannot affect its embedding. Diagnostic only; no hypothesis, analysis or rule changed. Also added analysis and temporal scripts implementing the existing plan.
 
 ## 6. Amendment 1 (Oct 4, 2026, before any model was trained or any score computed)
 

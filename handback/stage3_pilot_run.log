@@ -1,0 +1,19 @@
+pilot: 10 terms, 0 already done, 10 to run
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12651.94it/s]
+embedded minilm on mps: 19236 new texts in 42.9s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6078.57it/s]
+embedded bge on mps: 19236 new texts in 54.5s
+baselines ready in 4.8s (tfidf vocabulary=12404; needed genes without HGNC entrez_id=0)
+done GO:0050769 in 6.7s
+done GO:0071709 in 6.6s
+done GO:0042273 in 7.0s
+done GO:0016556 in 6.3s
+done GO:0035307 in 6.7s
+done GO:0007229 in 6.5s
+done GO:0051865 in 6.5s
+done GO:0019748 in 5.9s
+done GO:0048024 in 6.5s
+done GO:0071470 in 5.8s
+TIMING prep=2.4s embedding=97.5s baselines=4.8s cv_wall=9.1s jobs=10 total=115.3s terms=10
+DONE pilot
+exit=0

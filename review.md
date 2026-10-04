@@ -73,7 +73,7 @@ Parent terms include words like "regulation", "cellular", "process", "response".
 | "This is a negative/sanity paper, not a method." | IDASB lists "data science approaches" and "LLMs in biomedical fields"; the deliverable is a corrected benchmark plus released masked text. |
 | "Alliance summaries obviously leak; trivial." | The share and the effect size were not reported anywhere we found; the benchmarks people cite still score on GO. |
 
-## 5. Feasibility for a solo high-school author
+## 5. Feasibility for a solo author
 - Compute: fine on a laptop.
 - Time: tight for an Oct 10 deadline while the TMLR study runs (TMLR target Oct 30). Realistic only if Stages 1-4 each take about a day. If IDASB's deadline is Oct 10 or earlier and Stage 1 slips, drop to a later venue rather than rushing Stage 5.
 - Overlap: no overlap with the TMLR study (different domain, data and question). Can run in parallel without the TMLR "parallel submission" problem.

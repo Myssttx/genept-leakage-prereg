@@ -8,8 +8,8 @@ Written Oct 4, 2026. Applies the fixes in `review.md` to the plan in `plan.md`. 
 |---|---|
 | 1. Go/no-go checks, environment and data | **Done.** See `handback/stage1.md`. GenePT Appendix B.3 does not mask words, so the idea stands. |
 | 2. Design, preregistration, freeze | **Done.** Run from a self-contained spec instead of the 4-part prompt. Design in `frozen/` (17507-gene universe, 150 main + 10 pilot GO BP terms). Preregistration pushed publicly; freeze commit `67395a9` (`frozen/FREEZE.txt`). |
-| 3. Pilot | **Current.** Amendment 1 to the preregistration (before any outcome), `code/evaluate.py`, and a run on the 10 pilot terms only, with sanity checks and a timing estimate. |
-| 4. Full runs | Next: the 150 main terms. |
+| 3. Pilot | **Done.** Amendment 1 (commit `446754f`, before any outcome), `code/evaluate.py`, and the pilot run on the 10 pilot terms; all sanity checks passed. The project moved out of iCloud to `~/genept-leakage`. |
+| 4. Full runs + analysis | **Current.** Deviation 1 (truncation diagnostic), the 150 main terms, then `code/analyze.py`, `code/temporal.py` and `code/truncation.py`. |
 | 5–7. Analysis, paper, submission | As below. |
 
 The stage descriptions below are the original plan. Where they differ from the status table or `preregistration.md`, those win.
@@ -38,7 +38,7 @@ Claude Code:
 
 You, in parallel:
 - Confirm IDASB's deadline, page limit, presentation format and review type from its page.
-- Email the BIBM registration chair to ask whether a high-school student gets the student rate.
+- Email the BIBM registration chair to ask whether a solo author gets the student rate.
 
 **My audit checks:** B.3 does not already do term masking. Disk and files are complete, with checksums. GenePT text/embedding pairing is unambiguous. ID overlap is at least 80%. A pre-snapshot GO release exists. Alliance template share is reported. No outcome (AUROC or classifier output) was computed.
 

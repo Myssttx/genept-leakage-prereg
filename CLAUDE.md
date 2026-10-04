@@ -7,8 +7,8 @@ First target venue: IDASB 2026 (a workshop at IEEE BIBM 2026). This project is s
 ## Current state (Oct 4, 2026)
 - **Stage 1 done:** data downloaded and checksummed (`data/README.md`, `handback/stage1.md`).
 - **Stage 2 done:** design built and frozen in `frozen/`. The preregistration was pushed publicly to github.com/Myssttx/genept-leakage-prereg; the freeze commit is `67395a9` (see `frozen/FREEZE.txt`). **Never edit, delete or regenerate anything in `frozen/`.**
-- **Stage 3 (current):** evaluation code plus a run on the 10 **pilot** terms only (`code/run_study.py --set pilot`). Nothing may be run on the 150 main terms.
-- **Stage 4 (next):** full run on the 150 main terms, then the preregistered analysis.
+- **Stage 3 done:** Amendment 1 (commit `446754f`), evaluation code, and the pilot run on the 10 pilot terms (all sanity checks passed). The project moved from `~/Documents` (iCloud) to `~/genept-leakage`.
+- **Stage 4 (current):** Deviation 1 (truncation diagnostic), the full run on the 150 main terms (`code/run_study.py --set main`), and the preregistered analysis (`code/analyze.py`), plus the exploratory `code/temporal.py`.
 
 ## Hard rules
 - **Never fabricate results, numbers or citations.** Every number in the paper must come from a file in `results/`. Every citation must be opened and checked.
