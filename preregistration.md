@@ -120,3 +120,49 @@ All rules are implemented in `code/design_lib.py` and run by `code/stage2_freeze
 ## 5. Deviations
 
 None yet.
+
+## 6. Amendment 1 (Oct 4, 2026, before any model was trained or any score computed)
+
+This amendment was written and pushed before any classifier was trained or any AUROC/AUPRC computed, on any term (pilot or main). Sections 1–4 still apply; this section adds to them.
+
+**Text conditions per term.** Every condition keeps the "Gene Symbol X " prefix and changes only the body.
+- **full:** the summary unchanged.
+- **target mask:** the term's frozen mask (section 3, rule 4).
+- **off-target mask:** the frozen mask of the matched off-target term.
+- **rand0, rand1, rand2:** in each gene's summary body, delete the same number of random non-stopword tokens that the target mask deleted in that gene.
+  - The random generator for gene g and condition rand*k* is `random.Random(int(sha256((term + g + str(k)).encode()).hexdigest(), 16))`, with term the GO ID (e.g. `"GO:0032720" + "ADIPOQ" + "0"`).
+  - The eligible tokens are the body's content tokens (normalised, at least 2 characters, not a stopword; section 3, rule 3), and the positions to delete are drawn with `rng.sample`.
+  - A deleted token takes one following space with it, as in the target mask.
+  - Genes with 0 target deletions are unchanged.
+- **phrase (exploratory):** delete only exact full occurrences of the term name and its EXACT synonyms (baseline `go-basic.obo`), case-insensitive.
+  - A match must not touch a letter or digit on either side. Spaces inside a phrase match any run of whitespace. Longer phrases are applied first.
+  - A deleted occurrence takes one following space with it. Its deletion count is the number of `[A-Za-z0-9]+` tokens it contained.
+
+**Secondary hypothesis H2 (MiniLM, 150 main terms).** mean(AUROC(rand0), AUROC(rand1), AUROC(rand2)) − AUROC(target mask) > 0.
+- It uses the same median, 95% bootstrap CI and Wilcoxon test as H1.
+- The two-sided Wilcoxon p-values of H1 and H2 are Holm-corrected together (a family of two).
+- The bge-small results for H1 and H2 are reported alongside and are not part of the Holm family.
+
+**Baselines (descriptive; no hypothesis test).** Each uses the same genes, splits, classifier and AUROC/AUPRC computation as the main conditions.
+- **Released ada embedding** (full text only): the GenePT vector for the gene's ada key in `frozen/universe_keys.tsv`.
+- **Gene2vec:** the 200-d vector for the gene's Gene2vec key.
+- **TF-IDF on full, target-mask and off-target-mask text:**
+  - Settings: `TfidfVectorizer(max_features=20000, min_df=2, sublinear_tf=True)`, otherwise scikit-learn defaults.
+  - The vocabulary and IDF are fit once on the full texts (prefix + body) of all 17507 universe genes, which uses no labels.
+  - TF-IDF features are not standardised.
+- **PubMed:** log1p of the number of distinct PubMed IDs per NCBI GeneID in `gene2pubmed` (human rows). The GeneID comes from the HGNC `entrez_id` column, and genes without one, or without rows, count 0.
+- **Random:** 384-d standard Gaussian vectors, one per gene, from `numpy.random.default_rng(int.from_bytes(sha256(("random-" + gene).encode()).digest()[:8], "big"))`.
+
+**Implementation details fixed now.**
+- **Embedding models:** the model revisions are pinned to the snapshots in section 4. Other settings:
+  - batch size 64, `normalize_embeddings=True`, MPS if available, otherwise CPU;
+  - each model's default maximum sequence length, so longer texts are truncated by the model.
+- **Embedding cache:** embeddings are cached by sha256(model name + text), so identical texts are embedded once.
+- **Classifier:** `StandardScaler` then `LogisticRegression(C=1, class_weight="balanced", max_iter=5000)`, fit on the training folds only, with no scaler for TF-IDF.
+- **Splits:** one `RepeatedStratifiedKFold(n_splits=5, n_repeats=3, random_state=0)` split per term, shared by all of that term's feature sets.
+- **Scores:** AUROC and AUPRC (`average_precision_score`) are computed on the pooled out-of-fold scores of each repeat, then averaged over the 3 repeats.
+- **Per-positive record (MiniLM, full text):** for each positive gene, its out-of-fold score percentile among the term's negatives, computed per repeat as 100 × (number of negatives with a lower score + 0.5 × number with an equal score) / number of negatives and averaged over repeats. The number of target tokens deleted in that gene is stored with it.
+
+**Temporal analysis (exploratory).** Genes that are new positives for a term are removed from that term's training negatives.
+
+**Limitation noted in advance.** EXACT synonyms add generic words (for example up, down, factor, anti) to some masks. The masks stay as frozen.

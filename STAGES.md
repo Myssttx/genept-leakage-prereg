@@ -1,6 +1,18 @@
 # Build plan: GenePT leakage paper, in audited stages
 
-Written Oct 4, 2026. Applies the fixes in `review.md` to the plan in `plan.md`. Where they disagree, **this file and `review.md` win**.
+Written Oct 4, 2026. Applies the fixes in `review.md` to the plan in `plan.md`. Where they disagree, **this file and `review.md` win**. `preregistration.md` overrides all of them.
+
+## Current status (updated Oct 4, 2026)
+
+| Stage | Status |
+|---|---|
+| 1. Go/no-go checks, environment and data | **Done.** See `handback/stage1.md`. GenePT Appendix B.3 does not mask words, so the idea stands. |
+| 2. Design, preregistration, freeze | **Done.** Run from a self-contained spec instead of the 4-part prompt. Design in `frozen/` (17507-gene universe, 150 main + 10 pilot GO BP terms). Preregistration pushed publicly; freeze commit `67395a9` (`frozen/FREEZE.txt`). |
+| 3. Pilot | **Current.** Amendment 1 to the preregistration (before any outcome), `code/evaluate.py`, and a run on the 10 pilot terms only, with sanity checks and a timing estimate. |
+| 4. Full runs | Next: the 150 main terms. |
+| 5–7. Analysis, paper, submission | As below. |
+
+The stage descriptions below are the original plan. Where they differ from the status table or `preregistration.md`, those win.
 
 ## How the loop works
 
