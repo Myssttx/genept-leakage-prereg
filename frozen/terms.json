@@ -1,0 +1,3574 @@
+[
+ {
+  "set": "main",
+  "term": "GO:0032720",
+  "name": "negative regulation of tumor necrosis factor production",
+  "n_pos": 39,
+  "mask": [
+   "alpha",
+   "down",
+   "downregulation",
+   "factor",
+   "necrosis",
+   "production",
+   "tnf",
+   "tumor"
+  ],
+  "deletions": 4342,
+  "off_term": "GO:0008535",
+  "off_name": "respiratory chain complex IV assembly",
+  "off_mask": [
+   "assembly",
+   "chain",
+   "complex",
+   "cytochrome",
+   "iv",
+   "oxidase",
+   "respiratory"
+  ],
+  "off_deletions": 4353
+ },
+ {
+  "set": "main",
+  "term": "GO:0032465",
+  "name": "regulation of cytokinesis",
+  "n_pos": 77,
+  "mask": [
+   "cycle",
+   "cytokinesis"
+  ],
+  "deletions": 609,
+  "off_term": "GO:0045069",
+  "off_name": "regulation of viral genome replication",
+  "off_mask": [
+   "genome",
+   "replication",
+   "viral"
+  ],
+  "off_deletions": 609
+ },
+ {
+  "set": "main",
+  "term": "GO:0006505",
+  "name": "GPI anchor metabolic process",
+  "n_pos": 21,
+  "mask": [
+   "anchor",
+   "glycosylphosphatidylinositol",
+   "gpi",
+   "metabolic",
+   "metabolism"
+  ],
+  "deletions": 743,
+  "off_term": "GO:2000781",
+  "off_name": "positive regulation of double-strand break repair",
+  "off_mask": [
+   "break",
+   "double",
+   "repair",
+   "strand"
+  ],
+  "off_deletions": 743
+ },
+ {
+  "set": "main",
+  "term": "GO:1990928",
+  "name": "response to amino acid starvation",
+  "n_pos": 45,
+  "mask": [
+   "acid",
+   "amino",
+   "starvation"
+  ],
+  "deletions": 1394,
+  "off_term": "GO:0006412",
+  "off_name": "translation",
+  "off_mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "synthesis",
+   "translation"
+  ],
+  "off_deletions": 1397
+ },
+ {
+  "set": "main",
+  "term": "GO:0045732",
+  "name": "positive regulation of protein catabolic process",
+  "n_pos": 123,
+  "mask": [
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "degradation",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 568,
+  "off_term": "GO:0048515",
+  "off_name": "spermatid differentiation",
+  "off_mask": [
+   "differentiation",
+   "spermatid"
+  ],
+  "off_deletions": 568
+ },
+ {
+  "set": "main",
+  "term": "GO:0002027",
+  "name": "regulation of heart rate",
+  "n_pos": 52,
+  "mask": [
+   "cardiac",
+   "chronotropy",
+   "contraction",
+   "heart",
+   "rate"
+  ],
+  "deletions": 372,
+  "off_term": "GO:0097529",
+  "off_name": "myeloid leukocyte migration",
+  "off_mask": [
+   "leukocyte",
+   "migration",
+   "myeloid"
+  ],
+  "off_deletions": 372
+ },
+ {
+  "set": "main",
+  "term": "GO:0050728",
+  "name": "negative regulation of inflammatory response",
+  "n_pos": 56,
+  "mask": [
+   "anti",
+   "down",
+   "downregulation",
+   "inflammatory"
+  ],
+  "deletions": 346,
+  "off_term": "GO:0019915",
+  "off_name": "lipid storage",
+  "off_mask": [
+   "lipid",
+   "retention",
+   "sequestration",
+   "storage"
+  ],
+  "off_deletions": 346
+ },
+ {
+  "set": "main",
+  "term": "GO:0070972",
+  "name": "protein localization to endoplasmic reticulum",
+  "n_pos": 35,
+  "mask": [
+   "endoplasmic",
+   "er",
+   "localisation",
+   "localization",
+   "reticulum"
+  ],
+  "deletions": 1566,
+  "off_term": "GO:0032781",
+  "off_name": "positive regulation of ATP-dependent activity",
+  "off_mask": [
+   "adenosinetriphosphatase",
+   "atp",
+   "atpase",
+   "dependent",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 1569
+ },
+ {
+  "set": "main",
+  "term": "GO:0007006",
+  "name": "mitochondrial membrane organization",
+  "n_pos": 59,
+  "mask": [
+   "membrane",
+   "mitochondrial",
+   "organisation",
+   "organization"
+  ],
+  "deletions": 3568,
+  "off_term": "GO:0006890",
+  "off_name": "retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum",
+  "off_mask": [
+   "cis",
+   "endoplasmic",
+   "er",
+   "golgi",
+   "mediated",
+   "reticulum",
+   "retrograde",
+   "rough",
+   "transport",
+   "vesicle"
+  ],
+  "off_deletions": 3563
+ },
+ {
+  "set": "main",
+  "term": "GO:0007611",
+  "name": "learning or memory",
+  "n_pos": 29,
+  "mask": [
+   "learning",
+   "memory"
+  ],
+  "deletions": 44,
+  "off_term": "GO:0071241",
+  "off_name": "cellular response to inorganic substance",
+  "off_mask": [
+   "inorganic",
+   "substance"
+  ],
+  "off_deletions": 44
+ },
+ {
+  "set": "main",
+  "term": "GO:0043001",
+  "name": "Golgi to plasma membrane protein transport",
+  "n_pos": 20,
+  "mask": [
+   "golgi",
+   "membrane",
+   "plasma",
+   "transport"
+  ],
+  "deletions": 4410,
+  "off_term": "GO:0022618",
+  "off_name": "protein-RNA complex assembly",
+  "off_mask": [
+   "assembly",
+   "complex",
+   "ribonucleoprotein",
+   "rna",
+   "rnp"
+  ],
+  "off_deletions": 4408
+ },
+ {
+  "set": "main",
+  "term": "GO:0003006",
+  "name": "developmental process involved in reproduction",
+  "n_pos": 121,
+  "mask": [
+   "developmental",
+   "reproduction"
+  ],
+  "deletions": 151,
+  "off_term": "GO:1903036",
+  "off_name": "positive regulation of response to wounding",
+  "off_mask": [
+   "physiological",
+   "up",
+   "upregulation",
+   "wounding"
+  ],
+  "off_deletions": 149
+ },
+ {
+  "set": "main",
+  "term": "GO:0006469",
+  "name": "negative regulation of protein kinase activity",
+  "n_pos": 111,
+  "mask": [
+   "down",
+   "downregulation",
+   "kinase"
+  ],
+  "deletions": 1850,
+  "off_term": "GO:0170040",
+  "off_name": "proteinogenic amino acid catabolic process",
+  "off_mask": [
+   "acid",
+   "amino",
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "degradation",
+   "proteinogenic"
+  ],
+  "off_deletions": 1863
+ },
+ {
+  "set": "main",
+  "term": "GO:0071692",
+  "name": "protein localization to extracellular region",
+  "n_pos": 22,
+  "mask": [
+   "extracellular",
+   "localisation",
+   "localization",
+   "region"
+  ],
+  "deletions": 1788,
+  "off_term": "GO:0014706",
+  "off_name": "striated muscle tissue development",
+  "off_mask": [
+   "development",
+   "muscle",
+   "striated",
+   "tissue"
+  ],
+  "off_deletions": 1783
+ },
+ {
+  "set": "main",
+  "term": "GO:0007041",
+  "name": "lysosomal transport",
+  "n_pos": 87,
+  "mask": [
+   "lysosomal",
+   "transport"
+  ],
+  "deletions": 896,
+  "off_term": "GO:0007098",
+  "off_name": "centrosome cycle",
+  "off_mask": [
+   "centrosome",
+   "cycle",
+   "organisation",
+   "organization"
+  ],
+  "off_deletions": 895
+ },
+ {
+  "set": "main",
+  "term": "GO:0061013",
+  "name": "regulation of mRNA catabolic process",
+  "n_pos": 105,
+  "mask": [
+   "catabolic",
+   "mrna"
+  ],
+  "deletions": 756,
+  "off_term": "GO:0072006",
+  "off_name": "nephron development",
+  "off_mask": [
+   "development",
+   "nephron"
+  ],
+  "off_deletions": 756
+ },
+ {
+  "set": "main",
+  "term": "GO:0045861",
+  "name": "negative regulation of proteolysis",
+  "n_pos": 143,
+  "mask": [
+   "down",
+   "downregulation",
+   "peptidolysis",
+   "proteolysis"
+  ],
+  "deletions": 118,
+  "off_term": "GO:0007601",
+  "off_name": "visual perception",
+  "off_mask": [
+   "perception",
+   "sense",
+   "sensory",
+   "sight",
+   "vision",
+   "visual"
+  ],
+  "off_deletions": 118
+ },
+ {
+  "set": "main",
+  "term": "GO:0097305",
+  "name": "response to alcohol",
+  "n_pos": 57,
+  "mask": [
+   "alcohol"
+  ],
+  "deletions": 59,
+  "off_term": "GO:0035150",
+  "off_name": "regulation of tube size",
+  "off_mask": [
+   "size",
+   "tube"
+  ],
+  "off_deletions": 58
+ },
+ {
+  "set": "main",
+  "term": "GO:0071773",
+  "name": "cellular response to BMP stimulus",
+  "n_pos": 36,
+  "mask": [
+   "bmp",
+   "bone",
+   "morphogenetic",
+   "stimulus"
+  ],
+  "deletions": 267,
+  "off_term": "GO:0050808",
+  "off_name": "synapse organization",
+  "off_mask": [
+   "organisation",
+   "organization",
+   "synapse"
+  ],
+  "off_deletions": 266
+ },
+ {
+  "set": "main",
+  "term": "GO:0031570",
+  "name": "DNA integrity checkpoint signaling",
+  "n_pos": 76,
+  "mask": [
+   "checkpoint",
+   "dna",
+   "integrity",
+   "signal",
+   "signaling",
+   "transduction"
+  ],
+  "deletions": 4024,
+  "off_term": "GO:0045943",
+  "off_name": "positive regulation of transcription by RNA polymerase I",
+  "off_mask": [
+   "pol",
+   "polymerase",
+   "promoter",
+   "rna",
+   "transcription",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 4040
+ },
+ {
+  "set": "main",
+  "term": "GO:2001251",
+  "name": "negative regulation of chromosome organization",
+  "n_pos": 56,
+  "mask": [
+   "chromosome",
+   "organisation",
+   "organization"
+  ],
+  "deletions": 1557,
+  "off_term": "GO:0015931",
+  "off_name": "nucleobase-containing compound transport",
+  "off_mask": [
+   "compound",
+   "containing",
+   "nucleobase",
+   "transport"
+  ],
+  "off_deletions": 1559
+ },
+ {
+  "set": "main",
+  "term": "GO:0031507",
+  "name": "heterochromatin formation",
+  "n_pos": 32,
+  "mask": [
+   "architecture",
+   "assembly",
+   "chromatin",
+   "formation",
+   "heterochromatin",
+   "mediated",
+   "silencing"
+  ],
+  "deletions": 1867,
+  "off_term": "GO:0006487",
+  "off_name": "protein N-linked glycosylation",
+  "off_mask": [
+   "acid",
+   "amino",
+   "glycosylation",
+   "linked"
+  ],
+  "off_deletions": 1864
+ },
+ {
+  "set": "main",
+  "term": "GO:0006890",
+  "name": "retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum",
+  "n_pos": 23,
+  "mask": [
+   "cis",
+   "endoplasmic",
+   "er",
+   "golgi",
+   "mediated",
+   "reticulum",
+   "retrograde",
+   "rough",
+   "transport",
+   "vesicle"
+  ],
+  "deletions": 3563,
+  "off_term": "GO:0007006",
+  "off_name": "mitochondrial membrane organization",
+  "off_mask": [
+   "membrane",
+   "mitochondrial",
+   "organisation",
+   "organization"
+  ],
+  "off_deletions": 3568
+ },
+ {
+  "set": "main",
+  "term": "GO:0031648",
+  "name": "protein destabilization",
+  "n_pos": 35,
+  "mask": [
+   "destabilisation",
+   "destabilization",
+   "stability"
+  ],
+  "deletions": 103,
+  "off_term": "GO:0045765",
+  "off_name": "regulation of angiogenesis",
+  "off_mask": [
+   "angiogenesis"
+  ],
+  "off_deletions": 103
+ },
+ {
+  "set": "main",
+  "term": "GO:0019369",
+  "name": "arachidonic acid metabolic process",
+  "n_pos": 23,
+  "mask": [
+   "acid",
+   "arachidonic",
+   "metabolic",
+   "metabolism"
+  ],
+  "deletions": 1518,
+  "off_term": "GO:0007059",
+  "off_name": "chromosome segregation",
+  "off_mask": [
+   "chromosome",
+   "division",
+   "segregation"
+  ],
+  "off_deletions": 1516
+ },
+ {
+  "set": "main",
+  "term": "GO:0042269",
+  "name": "regulation of natural killer cell mediated cytotoxicity",
+  "n_pos": 36,
+  "mask": [
+   "cytotoxicity",
+   "death",
+   "killer",
+   "killing",
+   "mediated",
+   "natural",
+   "nk"
+  ],
+  "deletions": 818,
+  "off_term": "GO:0090257",
+  "off_name": "regulation of muscle system process",
+  "off_mask": [
+   "muscle",
+   "system"
+  ],
+  "off_deletions": 818
+ },
+ {
+  "set": "main",
+  "term": "GO:0051259",
+  "name": "protein complex oligomerization",
+  "n_pos": 148,
+  "mask": [
+   "assembly",
+   "complex",
+   "formation",
+   "oligomer",
+   "oligomerization"
+  ],
+  "deletions": 3501,
+  "off_term": "GO:0051881",
+  "off_name": "regulation of mitochondrial membrane potential",
+  "off_mask": [
+   "membrane",
+   "mitochondrial",
+   "potential"
+  ],
+  "off_deletions": 3504
+ },
+ {
+  "set": "main",
+  "term": "GO:0042158",
+  "name": "lipoprotein biosynthetic process",
+  "n_pos": 51,
+  "mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "lipoprotein",
+   "synthesis"
+  ],
+  "deletions": 1163,
+  "off_term": "GO:0032231",
+  "off_name": "regulation of actin filament bundle assembly",
+  "off_mask": [
+   "actin",
+   "assembly",
+   "bundle",
+   "cable",
+   "filament"
+  ],
+  "off_deletions": 1163
+ },
+ {
+  "set": "main",
+  "term": "GO:0006886",
+  "name": "intracellular protein transport",
+  "n_pos": 151,
+  "mask": [
+   "intracellular",
+   "transport"
+  ],
+  "deletions": 1180,
+  "off_term": "GO:0001539",
+  "off_name": "cilium or flagellum-dependent cell motility",
+  "off_mask": [
+   "ciliary",
+   "cilium",
+   "dependent",
+   "flagellar",
+   "flagellum",
+   "motility"
+  ],
+  "off_deletions": 1178
+ },
+ {
+  "set": "main",
+  "term": "GO:0007420",
+  "name": "brain development",
+  "n_pos": 85,
+  "mask": [
+   "brain",
+   "development"
+  ],
+  "deletions": 1035,
+  "off_term": "GO:1901991",
+  "off_name": "negative regulation of mitotic cell cycle phase transition",
+  "off_mask": [
+   "cycle",
+   "down",
+   "downregulation",
+   "mitotic",
+   "phase",
+   "transition"
+  ],
+  "off_deletions": 1034
+ },
+ {
+  "set": "main",
+  "term": "GO:0045740",
+  "name": "positive regulation of DNA replication",
+  "n_pos": 20,
+  "mask": [
+   "dna",
+   "replication",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 2017,
+  "off_term": "GO:0050658",
+  "off_name": "RNA transport",
+  "off_mask": [
+   "rna",
+   "transport"
+  ],
+  "off_deletions": 2015
+ },
+ {
+  "set": "main",
+  "term": "GO:0030301",
+  "name": "cholesterol transport",
+  "n_pos": 40,
+  "mask": [
+   "cholesterol",
+   "transport"
+  ],
+  "deletions": 919,
+  "off_term": "GO:0031638",
+  "off_name": "zymogen activation",
+  "off_mask": [
+   "activation",
+   "cleavage",
+   "proteolytic",
+   "zymogen"
+  ],
+  "off_deletions": 921
+ },
+ {
+  "set": "main",
+  "term": "GO:0003012",
+  "name": "muscle system process",
+  "n_pos": 81,
+  "mask": [
+   "muscle",
+   "system"
+  ],
+  "deletions": 818,
+  "off_term": "GO:0042269",
+  "off_name": "regulation of natural killer cell mediated cytotoxicity",
+  "off_mask": [
+   "cytotoxicity",
+   "death",
+   "killer",
+   "killing",
+   "mediated",
+   "natural",
+   "nk"
+  ],
+  "off_deletions": 818
+ },
+ {
+  "set": "main",
+  "term": "GO:0051926",
+  "name": "negative regulation of calcium ion transport",
+  "n_pos": 31,
+  "mask": [
+   "calcium",
+   "down",
+   "downregulation",
+   "ion",
+   "transport"
+  ],
+  "deletions": 1757,
+  "off_term": "GO:1902003",
+  "off_name": "regulation of amyloid-beta formation",
+  "off_mask": [
+   "amyloid",
+   "beta",
+   "formation"
+  ],
+  "off_deletions": 1755
+ },
+ {
+  "set": "main",
+  "term": "GO:0043588",
+  "name": "skin development",
+  "n_pos": 62,
+  "mask": [
+   "animal",
+   "development",
+   "skin"
+  ],
+  "deletions": 859,
+  "off_term": "GO:0046496",
+  "off_name": "nicotinamide nucleotide metabolic process",
+  "off_mask": [
+   "metabolic",
+   "metabolism",
+   "nicotinamide",
+   "nucleotide"
+  ],
+  "off_deletions": 858
+ },
+ {
+  "set": "main",
+  "term": "GO:0006401",
+  "name": "RNA catabolic process",
+  "n_pos": 98,
+  "mask": [
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "degradation",
+   "rna"
+  ],
+  "deletions": 1749,
+  "off_term": "GO:1901568",
+  "off_name": "fatty acid derivative metabolic process",
+  "off_mask": [
+   "acid",
+   "derivative",
+   "fatty",
+   "metabolic",
+   "metabolism"
+  ],
+  "off_deletions": 1751
+ },
+ {
+  "set": "main",
+  "term": "GO:0001959",
+  "name": "regulation of cytokine-mediated signaling pathway",
+  "n_pos": 98,
+  "mask": [
+   "chemokine",
+   "cytokine",
+   "mediated",
+   "pathway",
+   "signaling",
+   "signalling"
+  ],
+  "deletions": 3187,
+  "off_term": "GO:0043154",
+  "off_name": "negative regulation of cysteine-type endopeptidase activity involved in apoptotic process",
+  "off_mask": [
+   "activation",
+   "apoptotic",
+   "caspase",
+   "cysteine",
+   "down",
+   "downregulation",
+   "endopeptidase",
+   "type"
+  ],
+  "off_deletions": 3185
+ },
+ {
+  "set": "main",
+  "term": "GO:0034728",
+  "name": "nucleosome organization",
+  "n_pos": 50,
+  "mask": [
+   "nucleosome",
+   "organisation",
+   "organization"
+  ],
+  "deletions": 317,
+  "off_term": "GO:0071677",
+  "off_name": "positive regulation of mononuclear cell migration",
+  "off_mask": [
+   "migration",
+   "mononuclear",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 316
+ },
+ {
+  "set": "main",
+  "term": "GO:0007030",
+  "name": "Golgi organization",
+  "n_pos": 75,
+  "mask": [
+   "apparatus",
+   "golgi",
+   "organisation",
+   "organization"
+  ],
+  "deletions": 944,
+  "off_term": "GO:0048002",
+  "off_name": "antigen processing and presentation of peptide antigen",
+  "off_mask": [
+   "antigen",
+   "peptide",
+   "presentation",
+   "processing"
+  ],
+  "off_deletions": 943
+ },
+ {
+  "set": "main",
+  "term": "GO:0072001",
+  "name": "renal system development",
+  "n_pos": 65,
+  "mask": [
+   "development",
+   "renal",
+   "system"
+  ],
+  "deletions": 1294,
+  "off_term": "GO:0006506",
+  "off_name": "GPI anchor biosynthetic process",
+  "off_mask": [
+   "anabolism",
+   "anchor",
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "glycosylphosphatidylinositol",
+   "gpi",
+   "synthesis"
+  ],
+  "off_deletions": 1295
+ },
+ {
+  "set": "main",
+  "term": "GO:0062207",
+  "name": "regulation of pattern recognition receptor signaling pathway",
+  "n_pos": 111,
+  "mask": [
+   "pathway",
+   "pattern",
+   "receptor",
+   "recognition",
+   "signaling"
+  ],
+  "deletions": 5212,
+  "off_term": "GO:0006893",
+  "off_name": "Golgi to plasma membrane transport",
+  "off_mask": [
+   "golgi",
+   "mediated",
+   "membrane",
+   "plasma",
+   "transport",
+   "vesicle"
+  ],
+  "off_deletions": 5199
+ },
+ {
+  "set": "main",
+  "term": "GO:0006979",
+  "name": "response to oxidative stress",
+  "n_pos": 159,
+  "mask": [
+   "oxidative",
+   "stress"
+  ],
+  "deletions": 377,
+  "off_term": "GO:0030071",
+  "off_name": "regulation of mitotic metaphase/anaphase transition",
+  "off_mask": [
+   "anaphase",
+   "metaphase",
+   "mitotic",
+   "transition"
+  ],
+  "off_deletions": 379
+ },
+ {
+  "set": "main",
+  "term": "GO:0006790",
+  "name": "sulfur compound metabolic process",
+  "n_pos": 130,
+  "mask": [
+   "compound",
+   "metabolic",
+   "metabolism",
+   "sulfur",
+   "sulphur"
+  ],
+  "deletions": 652,
+  "off_term": "GO:0048705",
+  "off_name": "skeletal system morphogenesis",
+  "off_mask": [
+   "morphogenesis",
+   "skeletal",
+   "system"
+  ],
+  "off_deletions": 652
+ },
+ {
+  "set": "main",
+  "term": "GO:0032376",
+  "name": "positive regulation of cholesterol transport",
+  "n_pos": 25,
+  "mask": [
+   "cholesterol",
+   "transport",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 1000,
+  "off_term": "GO:2000351",
+  "off_name": "regulation of endothelial cell apoptotic process",
+  "off_mask": [
+   "apoptosis",
+   "apoptotic",
+   "death",
+   "endothelial",
+   "killing",
+   "programmed"
+  ],
+  "off_deletions": 1004
+ },
+ {
+  "set": "main",
+  "term": "GO:0043467",
+  "name": "regulation of generation of precursor metabolites and energy",
+  "n_pos": 65,
+  "mask": [
+   "energy",
+   "generation",
+   "metabolite",
+   "precursor"
+  ],
+  "deletions": 324,
+  "off_term": "GO:0033047",
+  "off_name": "regulation of mitotic sister chromatid segregation",
+  "off_mask": [
+   "chromatid",
+   "mitotic",
+   "segregation",
+   "sister"
+  ],
+  "off_deletions": 323
+ },
+ {
+  "set": "main",
+  "term": "GO:0009201",
+  "name": "ribonucleoside triphosphate biosynthetic process",
+  "n_pos": 20,
+  "mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "ribonucleoside",
+   "synthesis",
+   "triphosphate"
+  ],
+  "deletions": 1131,
+  "off_term": "GO:0050912",
+  "off_name": "detection of chemical stimulus involved in sensory perception of taste",
+  "off_mask": [
+   "chemical",
+   "detection",
+   "during",
+   "perception",
+   "sensory",
+   "stimulus",
+   "taste",
+   "transduction"
+  ],
+  "off_deletions": 1143
+ },
+ {
+  "set": "main",
+  "term": "GO:0060562",
+  "name": "epithelial tube morphogenesis",
+  "n_pos": 36,
+  "mask": [
+   "epithelial",
+   "morphogenesis",
+   "tube"
+  ],
+  "deletions": 353,
+  "off_term": "GO:0042593",
+  "off_name": "glucose homeostasis",
+  "off_mask": [
+   "glucose",
+   "homeostasis"
+  ],
+  "off_deletions": 353
+ },
+ {
+  "set": "main",
+  "term": "GO:0006694",
+  "name": "steroid biosynthetic process",
+  "n_pos": 41,
+  "mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "steroid",
+   "steroidogenesis",
+   "synthesis"
+  ],
+  "deletions": 1203,
+  "off_term": "GO:0010959",
+  "off_name": "regulation of metal ion transport",
+  "off_mask": [
+   "ion",
+   "metal",
+   "transport"
+  ],
+  "off_deletions": 1204
+ },
+ {
+  "set": "main",
+  "term": "GO:0016101",
+  "name": "diterpenoid metabolic process",
+  "n_pos": 40,
+  "mask": [
+   "diterpenoid",
+   "metabolic",
+   "metabolism"
+  ],
+  "deletions": 530,
+  "off_term": "GO:0016239",
+  "off_name": "positive regulation of macroautophagy",
+  "off_mask": [
+   "autophagy",
+   "induced",
+   "macroautophagy",
+   "starvation",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 528
+ },
+ {
+  "set": "main",
+  "term": "GO:0046578",
+  "name": "regulation of Ras protein signal transduction",
+  "n_pos": 21,
+  "mask": [
+   "ras",
+   "signal",
+   "transduction"
+  ],
+  "deletions": 1312,
+  "off_term": "GO:0060541",
+  "off_name": "respiratory system development",
+  "off_mask": [
+   "development",
+   "respiratory",
+   "system"
+  ],
+  "off_deletions": 1308
+ },
+ {
+  "set": "main",
+  "term": "GO:1901617",
+  "name": "organic hydroxy compound biosynthetic process",
+  "n_pos": 61,
+  "mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "compound",
+   "formation",
+   "hydroxy",
+   "organic",
+   "synthesis"
+  ],
+  "deletions": 1232,
+  "off_term": "GO:0043062",
+  "off_name": "extracellular structure organization",
+  "off_mask": [
+   "biogenesis",
+   "extracellular",
+   "organisation",
+   "organization",
+   "structure"
+  ],
+  "off_deletions": 1234
+ },
+ {
+  "set": "main",
+  "term": "GO:0001954",
+  "name": "positive regulation of cell-matrix adhesion",
+  "n_pos": 36,
+  "mask": [
+   "adhesion",
+   "matrix",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 733,
+  "off_term": "GO:0007043",
+  "off_name": "cell-cell junction assembly",
+  "off_mask": [
+   "assembly",
+   "intercellular",
+   "junction"
+  ],
+  "off_deletions": 734
+ },
+ {
+  "set": "main",
+  "term": "GO:0030832",
+  "name": "regulation of actin filament length",
+  "n_pos": 55,
+  "mask": [
+   "actin",
+   "filament",
+   "length"
+  ],
+  "deletions": 854,
+  "off_term": "GO:0015711",
+  "off_name": "organic anion transport",
+  "off_mask": [
+   "anion",
+   "organic",
+   "transport"
+  ],
+  "off_deletions": 855
+ },
+ {
+  "set": "main",
+  "term": "GO:0031638",
+  "name": "zymogen activation",
+  "n_pos": 31,
+  "mask": [
+   "activation",
+   "cleavage",
+   "proteolytic",
+   "zymogen"
+  ],
+  "deletions": 921,
+  "off_term": "GO:0001837",
+  "off_name": "epithelial to mesenchymal transition",
+  "off_mask": [
+   "differentiation",
+   "emt",
+   "epithelial",
+   "mesenchymal",
+   "transition"
+  ],
+  "off_deletions": 922
+ },
+ {
+  "set": "main",
+  "term": "GO:0043434",
+  "name": "response to peptide hormone",
+  "n_pos": 76,
+  "mask": [
+   "hormone",
+   "peptide",
+   "polypeptide",
+   "stimulus"
+  ],
+  "deletions": 966,
+  "off_term": "GO:0010569",
+  "off_name": "regulation of double-strand break repair via homologous recombination",
+  "off_mask": [
+   "break",
+   "double",
+   "homologous",
+   "recombination",
+   "repair",
+   "strand"
+  ],
+  "off_deletions": 967
+ },
+ {
+  "set": "main",
+  "term": "GO:0046394",
+  "name": "carboxylic acid biosynthetic process",
+  "n_pos": 118,
+  "mask": [
+   "acid",
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "carboxylic",
+   "formation",
+   "synthesis"
+  ],
+  "deletions": 2055,
+  "off_term": "GO:0042306",
+  "off_name": "regulation of protein import into nucleus",
+  "off_mask": [
+   "cytoplasm",
+   "import",
+   "nucleus",
+   "transport"
+  ],
+  "off_deletions": 2042
+ },
+ {
+  "set": "main",
+  "term": "GO:0006692",
+  "name": "prostanoid metabolic process",
+  "n_pos": 26,
+  "mask": [
+   "metabolic",
+   "metabolism",
+   "prostanoid"
+  ],
+  "deletions": 533,
+  "off_term": "GO:0031112",
+  "off_name": "positive regulation of microtubule polymerization or depolymerization",
+  "off_mask": [
+   "depolymerization",
+   "microtubule",
+   "polymerization",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 532
+ },
+ {
+  "set": "main",
+  "term": "GO:0002694",
+  "name": "regulation of leukocyte activation",
+  "n_pos": 197,
+  "mask": [
+   "activation",
+   "immune",
+   "leucocyte",
+   "leukocyte"
+  ],
+  "deletions": 1015,
+  "off_term": "GO:0006869",
+  "off_name": "lipid transport",
+  "off_mask": [
+   "lipid",
+   "transport"
+  ],
+  "off_deletions": 1017
+ },
+ {
+  "set": "main",
+  "term": "GO:1901343",
+  "name": "negative regulation of vasculature development",
+  "n_pos": 69,
+  "mask": [
+   "development",
+   "down",
+   "downregulation",
+   "vasculature"
+  ],
+  "deletions": 824,
+  "off_term": "GO:1903018",
+  "off_name": "regulation of glycoprotein metabolic process",
+  "off_mask": [
+   "glycoprotein",
+   "metabolic",
+   "metabolism"
+  ],
+  "off_deletions": 824
+ },
+ {
+  "set": "main",
+  "term": "GO:0046718",
+  "name": "symbiont entry into host cell",
+  "n_pos": 29,
+  "mask": [
+   "entry",
+   "host",
+   "symbiont"
+  ],
+  "deletions": 135,
+  "off_term": "GO:1903035",
+  "off_name": "negative regulation of response to wounding",
+  "off_mask": [
+   "down",
+   "downregulation",
+   "physiological",
+   "wounding"
+  ],
+  "off_deletions": 135
+ },
+ {
+  "set": "main",
+  "term": "GO:0038127",
+  "name": "ERBB signaling pathway",
+  "n_pos": 29,
+  "mask": [
+   "egf",
+   "erbb",
+   "family",
+   "pathway",
+   "receptor",
+   "signaling",
+   "signalling"
+  ],
+  "deletions": 9349,
+  "off_term": "GO:0006352",
+  "off_name": "DNA-templated transcription initiation",
+  "off_mask": [
+   "assembly",
+   "complex",
+   "dependent",
+   "dna",
+   "initiation",
+   "polymerase",
+   "promoter",
+   "rna",
+   "templated",
+   "transcription"
+  ],
+  "off_deletions": 9923
+ },
+ {
+  "set": "main",
+  "term": "GO:0001704",
+  "name": "formation of primary germ layer",
+  "n_pos": 39,
+  "mask": [
+   "formation",
+   "germ",
+   "layer",
+   "primary"
+  ],
+  "deletions": 657,
+  "off_term": "GO:0002687",
+  "off_name": "positive regulation of leukocyte migration",
+  "off_mask": [
+   "immune",
+   "leucocyte",
+   "leukocyte",
+   "migration",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 657
+ },
+ {
+  "set": "main",
+  "term": "GO:0046427",
+  "name": "positive regulation of receptor signaling pathway via JAK-STAT",
+  "n_pos": 24,
+  "mask": [
+   "cascade",
+   "jak",
+   "pathway",
+   "receptor",
+   "signaling",
+   "stat",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 5195,
+  "off_term": "GO:0006893",
+  "off_name": "Golgi to plasma membrane transport",
+  "off_mask": [
+   "golgi",
+   "mediated",
+   "membrane",
+   "plasma",
+   "transport",
+   "vesicle"
+  ],
+  "off_deletions": 5199
+ },
+ {
+  "set": "main",
+  "term": "GO:0045943",
+  "name": "positive regulation of transcription by RNA polymerase I",
+  "n_pos": 22,
+  "mask": [
+   "pol",
+   "polymerase",
+   "promoter",
+   "rna",
+   "transcription",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 4040,
+  "off_term": "GO:0034763",
+  "off_name": "negative regulation of transmembrane transport",
+  "off_mask": [
+   "down",
+   "downregulation",
+   "membrane",
+   "transmembrane",
+   "transport"
+  ],
+  "off_deletions": 4051
+ },
+ {
+  "set": "main",
+  "term": "GO:0002706",
+  "name": "regulation of lymphocyte mediated immunity",
+  "n_pos": 80,
+  "mask": [
+   "immunity",
+   "lymphocyte",
+   "mediated"
+  ],
+  "deletions": 687,
+  "off_term": "GO:0018209",
+  "off_name": "peptidyl-serine modification",
+  "off_mask": [
+   "modification",
+   "peptidyl",
+   "serine"
+  ],
+  "off_deletions": 688
+ },
+ {
+  "set": "main",
+  "term": "GO:0002520",
+  "name": "immune system development",
+  "n_pos": 28,
+  "mask": [
+   "development",
+   "immune",
+   "system"
+  ],
+  "deletions": 1447,
+  "off_term": "GO:0032365",
+  "off_name": "intracellular lipid transport",
+  "off_mask": [
+   "intracellular",
+   "lipid",
+   "transport"
+  ],
+  "off_deletions": 1444
+ },
+ {
+  "set": "main",
+  "term": "GO:0048515",
+  "name": "spermatid differentiation",
+  "n_pos": 29,
+  "mask": [
+   "differentiation",
+   "spermatid"
+  ],
+  "deletions": 568,
+  "off_term": "GO:0045732",
+  "off_name": "positive regulation of protein catabolic process",
+  "off_mask": [
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "degradation",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 568
+ },
+ {
+  "set": "main",
+  "term": "GO:0031113",
+  "name": "regulation of microtubule polymerization",
+  "n_pos": 38,
+  "mask": [
+   "microtubule",
+   "polymerization"
+  ],
+  "deletions": 434,
+  "off_term": "GO:1904950",
+  "off_name": "negative regulation of establishment of protein localization",
+  "off_mask": [
+   "down",
+   "downregulation",
+   "localisation",
+   "localization",
+   "positioning",
+   "recruitment"
+  ],
+  "off_deletions": 434
+ },
+ {
+  "set": "main",
+  "term": "GO:0007204",
+  "name": "positive regulation of cytosolic calcium ion concentration",
+  "n_pos": 35,
+  "mask": [
+   "calcium",
+   "concentration",
+   "cytosol",
+   "cytosolic",
+   "elevation",
+   "ion"
+  ],
+  "deletions": 1594,
+  "off_term": "GO:0045840",
+  "off_name": "positive regulation of mitotic nuclear division",
+  "off_mask": [
+   "division",
+   "mitosis",
+   "mitotic",
+   "nuclear",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 1593
+ },
+ {
+  "set": "main",
+  "term": "GO:0034067",
+  "name": "protein localization to Golgi apparatus",
+  "n_pos": 24,
+  "mask": [
+   "apparatus",
+   "golgi",
+   "localisation",
+   "localization"
+  ],
+  "deletions": 1007,
+  "off_term": "GO:0001910",
+  "off_name": "regulation of leukocyte mediated cytotoxicity",
+  "off_mask": [
+   "cytotoxicity",
+   "death",
+   "immune",
+   "killing",
+   "leucocyte",
+   "leukocyte",
+   "mediated"
+  ],
+  "off_deletions": 1005
+ },
+ {
+  "set": "main",
+  "term": "GO:0090169",
+  "name": "regulation of spindle assembly",
+  "n_pos": 27,
+  "mask": [
+   "assembly",
+   "formation",
+   "spindle"
+  ],
+  "deletions": 1122,
+  "off_term": "GO:0008333",
+  "off_name": "endosome to lysosome transport",
+  "off_mask": [
+   "endosome",
+   "lysosome",
+   "transport"
+  ],
+  "off_deletions": 1118
+ },
+ {
+  "set": "main",
+  "term": "GO:1903053",
+  "name": "regulation of extracellular matrix organization",
+  "n_pos": 33,
+  "mask": [
+   "extracellular",
+   "matrix",
+   "organisation",
+   "organization"
+  ],
+  "deletions": 1038,
+  "off_term": "GO:0051149",
+  "off_name": "positive regulation of muscle cell differentiation",
+  "off_mask": [
+   "differentiation",
+   "muscle",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 1039
+ },
+ {
+  "set": "main",
+  "term": "GO:0071456",
+  "name": "cellular response to hypoxia",
+  "n_pos": 61,
+  "mask": [
+   "hypoxia",
+   "hypoxic",
+   "lowered",
+   "oxygen",
+   "stress",
+   "tension"
+  ],
+  "deletions": 361,
+  "off_term": "GO:0010717",
+  "off_name": "regulation of epithelial to mesenchymal transition",
+  "off_mask": [
+   "epithelial",
+   "mesenchymal",
+   "transition"
+  ],
+  "off_deletions": 363
+ },
+ {
+  "set": "main",
+  "term": "GO:0090150",
+  "name": "establishment of protein localization to membrane",
+  "n_pos": 105,
+  "mask": [
+   "localisation",
+   "localization",
+   "membrane"
+  ],
+  "deletions": 2761,
+  "off_term": "GO:0001676",
+  "off_name": "long-chain fatty acid metabolic process",
+  "off_mask": [
+   "acid",
+   "chain",
+   "fatty",
+   "long",
+   "metabolic",
+   "metabolism"
+  ],
+  "off_deletions": 2753
+ },
+ {
+  "set": "main",
+  "term": "GO:0090087",
+  "name": "regulation of peptide transport",
+  "n_pos": 58,
+  "mask": [
+   "peptide",
+   "transport"
+  ],
+  "deletions": 1199,
+  "off_term": "GO:0060390",
+  "off_name": "regulation of SMAD protein signal transduction",
+  "off_mask": [
+   "signal",
+   "smad",
+   "transduction"
+  ],
+  "off_deletions": 1198
+ },
+ {
+  "set": "main",
+  "term": "GO:0043112",
+  "name": "receptor metabolic process",
+  "n_pos": 26,
+  "mask": [
+   "metabolic",
+   "metabolism",
+   "receptor"
+  ],
+  "deletions": 3324,
+  "off_term": "GO:0043243",
+  "off_name": "positive regulation of protein-containing complex disassembly",
+  "off_mask": [
+   "complex",
+   "containing",
+   "disassembly",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 3324
+ },
+ {
+  "set": "main",
+  "term": "GO:0042632",
+  "name": "cholesterol homeostasis",
+  "n_pos": 33,
+  "mask": [
+   "cholesterol",
+   "homeostasis"
+  ],
+  "deletions": 348,
+  "off_term": "GO:0050728",
+  "off_name": "negative regulation of inflammatory response",
+  "off_mask": [
+   "anti",
+   "down",
+   "downregulation",
+   "inflammatory"
+  ],
+  "off_deletions": 346
+ },
+ {
+  "set": "main",
+  "term": "GO:0002702",
+  "name": "positive regulation of production of molecular mediator of immune response",
+  "n_pos": 51,
+  "mask": [
+   "immune",
+   "mediator",
+   "molecular",
+   "production",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 767,
+  "off_term": "GO:0007286",
+  "off_name": "spermatid development",
+  "off_mask": [
+   "development",
+   "spermatid",
+   "spermiogenesis"
+  ],
+  "off_deletions": 767
+ },
+ {
+  "set": "main",
+  "term": "GO:0043300",
+  "name": "regulation of leukocyte degranulation",
+  "n_pos": 21,
+  "mask": [
+   "degranulation",
+   "exocytosis",
+   "granule",
+   "immune",
+   "leucocyte",
+   "leukocyte"
+  ],
+  "deletions": 472,
+  "off_term": "GO:0000281",
+  "off_name": "mitotic cytokinesis",
+  "off_mask": [
+   "after",
+   "cytokinesis",
+   "mitosis",
+   "mitotic"
+  ],
+  "off_deletions": 471
+ },
+ {
+  "set": "main",
+  "term": "GO:0050954",
+  "name": "sensory perception of mechanical stimulus",
+  "n_pos": 46,
+  "mask": [
+   "mechanical",
+   "mechanosensory",
+   "perception",
+   "sensory",
+   "stimulus"
+  ],
+  "deletions": 155,
+  "off_term": "GO:0032467",
+  "off_name": "positive regulation of cytokinesis",
+  "off_mask": [
+   "cytokinesis",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 155
+ },
+ {
+  "set": "main",
+  "term": "GO:0003014",
+  "name": "renal system process",
+  "n_pos": 38,
+  "mask": [
+   "excretory",
+   "renal",
+   "system"
+  ],
+  "deletions": 540,
+  "off_term": "GO:0006687",
+  "off_name": "glycosphingolipid metabolic process",
+  "off_mask": [
+   "glycosphingolipid",
+   "metabolic",
+   "metabolism"
+  ],
+  "off_deletions": 540
+ },
+ {
+  "set": "main",
+  "term": "GO:0043489",
+  "name": "RNA stabilization",
+  "n_pos": 39,
+  "mask": [
+   "rna",
+   "stabilization"
+  ],
+  "deletions": 1317,
+  "off_term": "GO:0061844",
+  "off_name": "antimicrobial humoral immune response mediated by antimicrobial peptide",
+  "off_mask": [
+   "antimicrobial",
+   "humoral",
+   "immune",
+   "mediated",
+   "peptide"
+  ],
+  "off_deletions": 1317
+ },
+ {
+  "set": "main",
+  "term": "GO:0050727",
+  "name": "regulation of inflammatory response",
+  "n_pos": 123,
+  "mask": [
+   "inflammatory"
+  ],
+  "deletions": 183,
+  "off_term": "GO:0051294",
+  "off_name": "establishment of spindle orientation",
+  "off_mask": [
+   "orientation",
+   "orienting",
+   "spindle"
+  ],
+  "off_deletions": 183
+ },
+ {
+  "set": "main",
+  "term": "GO:0051146",
+  "name": "striated muscle cell differentiation",
+  "n_pos": 32,
+  "mask": [
+   "differentiation",
+   "muscle",
+   "striated"
+  ],
+  "deletions": 980,
+  "off_term": "GO:0070252",
+  "off_name": "actin-mediated cell contraction",
+  "off_mask": [
+   "actin",
+   "contraction",
+   "mediated"
+  ],
+  "off_deletions": 979
+ },
+ {
+  "set": "main",
+  "term": "GO:1903533",
+  "name": "regulation of protein targeting",
+  "n_pos": 27,
+  "mask": [
+   "targeting"
+  ],
+  "deletions": 129,
+  "off_term": "GO:0007283",
+  "off_name": "spermatogenesis",
+  "off_mask": [
+   "generation",
+   "spermatogenesis",
+   "spermatozoa"
+  ],
+  "off_deletions": 129
+ },
+ {
+  "set": "main",
+  "term": "GO:0010821",
+  "name": "regulation of mitochondrion organization",
+  "n_pos": 94,
+  "mask": [
+   "mitochondrion",
+   "organisation",
+   "organization"
+  ],
+  "deletions": 374,
+  "off_term": "GO:0006400",
+  "off_name": "tRNA modification",
+  "off_mask": [
+   "modification",
+   "trna"
+  ],
+  "off_deletions": 375
+ },
+ {
+  "set": "main",
+  "term": "GO:0019731",
+  "name": "antibacterial humoral response",
+  "n_pos": 29,
+  "mask": [
+   "antibacterial",
+   "humoral"
+  ],
+  "deletions": 41,
+  "off_term": "GO:0016311",
+  "off_name": "dephosphorylation",
+  "off_mask": [
+   "dephosphorylation"
+  ],
+  "off_deletions": 41
+ },
+ {
+  "set": "main",
+  "term": "GO:0051495",
+  "name": "positive regulation of cytoskeleton organization",
+  "n_pos": 110,
+  "mask": [
+   "cytoskeleton",
+   "organisation",
+   "organization",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 508,
+  "off_term": "GO:0051261",
+  "off_name": "protein depolymerization",
+  "off_mask": [
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "degradation",
+   "depolymerization",
+   "polymer"
+  ],
+  "off_deletions": 509
+ },
+ {
+  "set": "main",
+  "term": "GO:0006289",
+  "name": "nucleotide-excision repair",
+  "n_pos": 36,
+  "mask": [
+   "damage",
+   "dimer",
+   "dna",
+   "excision",
+   "ner",
+   "nucleotide",
+   "pyrimidine",
+   "repair"
+  ],
+  "deletions": 2601,
+  "off_term": "GO:0043010",
+  "off_name": "camera-type eye development",
+  "off_mask": [
+   "camera",
+   "development",
+   "eye",
+   "type"
+  ],
+  "off_deletions": 2608
+ },
+ {
+  "set": "main",
+  "term": "GO:0060285",
+  "name": "cilium-dependent cell motility",
+  "n_pos": 34,
+  "mask": [
+   "based",
+   "cilium",
+   "dependent",
+   "flagellar",
+   "microtubule",
+   "motility"
+  ],
+  "deletions": 1630,
+  "off_term": "GO:0051303",
+  "off_name": "establishment of chromosome localization",
+  "off_mask": [
+   "chromosome",
+   "localisation",
+   "localization",
+   "positioning"
+  ],
+  "off_deletions": 1630
+ },
+ {
+  "set": "main",
+  "term": "GO:0045598",
+  "name": "regulation of fat cell differentiation",
+  "n_pos": 31,
+  "mask": [
+   "adipocyte",
+   "differentiation",
+   "fat"
+  ],
+  "deletions": 601,
+  "off_term": "GO:0019748",
+  "off_name": "secondary metabolic process",
+  "off_mask": [
+   "metabolic",
+   "metabolism",
+   "metabolite",
+   "secondary"
+  ],
+  "off_deletions": 603
+ },
+ {
+  "set": "main",
+  "term": "GO:0033045",
+  "name": "regulation of sister chromatid segregation",
+  "n_pos": 55,
+  "mask": [
+   "chromatid",
+   "segregation",
+   "sister"
+  ],
+  "deletions": 117,
+  "off_term": "GO:0061919",
+  "off_name": "process utilizing autophagic mechanism",
+  "off_mask": [
+   "autophagic",
+   "mechanism",
+   "utilizing"
+  ],
+  "off_deletions": 116
+ },
+ {
+  "set": "main",
+  "term": "GO:0051048",
+  "name": "negative regulation of secretion",
+  "n_pos": 63,
+  "mask": [
+   "down",
+   "downregulation",
+   "secretion"
+  ],
+  "deletions": 226,
+  "off_term": "GO:0080171",
+  "off_name": "lytic vacuole organization",
+  "off_mask": [
+   "lytic",
+   "organisation",
+   "organization",
+   "vacuole"
+  ],
+  "off_deletions": 225
+ },
+ {
+  "set": "main",
+  "term": "GO:0070663",
+  "name": "regulation of leukocyte proliferation",
+  "n_pos": 114,
+  "mask": [
+   "leukocyte",
+   "proliferation"
+  ],
+  "deletions": 477,
+  "off_term": "GO:0050803",
+  "off_name": "regulation of synapse structure or activity",
+  "off_mask": [
+   "structure",
+   "synapse"
+  ],
+  "off_deletions": 478
+ },
+ {
+  "set": "main",
+  "term": "GO:0061564",
+  "name": "axon development",
+  "n_pos": 31,
+  "mask": [
+   "axon",
+   "development"
+  ],
+  "deletions": 813,
+  "off_term": "GO:0030048",
+  "off_name": "actin filament-based movement",
+  "off_mask": [
+   "actin",
+   "based",
+   "filament",
+   "movement"
+  ],
+  "off_deletions": 813
+ },
+ {
+  "set": "main",
+  "term": "GO:0044843",
+  "name": "cell cycle G1/S phase transition",
+  "n_pos": 27,
+  "mask": [
+   "cycle",
+   "g1",
+   "phase",
+   "transition"
+  ],
+  "deletions": 846,
+  "off_term": "GO:0006140",
+  "off_name": "regulation of nucleotide metabolic process",
+  "off_mask": [
+   "metabolic",
+   "metabolism",
+   "nucleotide"
+  ],
+  "off_deletions": 846
+ },
+ {
+  "set": "main",
+  "term": "GO:0035308",
+  "name": "negative regulation of protein dephosphorylation",
+  "n_pos": 22,
+  "mask": [
+   "acid",
+   "amino",
+   "dephosphorylation",
+   "down",
+   "downregulation"
+  ],
+  "deletions": 1484,
+  "off_term": "GO:0043462",
+  "off_name": "regulation of ATP-dependent activity",
+  "off_mask": [
+   "adenosinetriphosphatase",
+   "atp",
+   "atpase",
+   "dependent"
+  ],
+  "off_deletions": 1488
+ },
+ {
+  "set": "main",
+  "term": "GO:0001667",
+  "name": "ameboidal-type cell migration",
+  "n_pos": 60,
+  "mask": [
+   "ameboid",
+   "ameboidal",
+   "amoeboid",
+   "amoeboidal",
+   "migration",
+   "type"
+  ],
+  "deletions": 2033,
+  "off_term": "GO:0045739",
+  "off_name": "positive regulation of DNA repair",
+  "off_mask": [
+   "dna",
+   "repair",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 2032
+ },
+ {
+  "set": "main",
+  "term": "GO:1902476",
+  "name": "chloride transmembrane transport",
+  "n_pos": 25,
+  "mask": [
+   "chloride",
+   "transmembrane",
+   "transport"
+  ],
+  "deletions": 1583,
+  "off_term": "GO:0007080",
+  "off_name": "mitotic metaphase chromosome alignment",
+  "off_mask": [
+   "alignment",
+   "chromosome",
+   "metaphase",
+   "mitotic"
+  ],
+  "off_deletions": 1584
+ },
+ {
+  "set": "main",
+  "term": "GO:0010959",
+  "name": "regulation of metal ion transport",
+  "n_pos": 173,
+  "mask": [
+   "ion",
+   "metal",
+   "transport"
+  ],
+  "deletions": 1204,
+  "off_term": "GO:0044272",
+  "off_name": "sulfur compound biosynthetic process",
+  "off_mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "compound",
+   "formation",
+   "sulfur",
+   "synthesis"
+  ],
+  "off_deletions": 1204
+ },
+ {
+  "set": "main",
+  "term": "GO:0046635",
+  "name": "positive regulation of alpha-beta T cell activation",
+  "n_pos": 25,
+  "mask": [
+   "activation",
+   "alpha",
+   "beta",
+   "lymphocyte",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 3161,
+  "off_term": "GO:0001959",
+  "off_name": "regulation of cytokine-mediated signaling pathway",
+  "off_mask": [
+   "chemokine",
+   "cytokine",
+   "mediated",
+   "pathway",
+   "signaling",
+   "signalling"
+  ],
+  "off_deletions": 3187
+ },
+ {
+  "set": "main",
+  "term": "GO:1904707",
+  "name": "positive regulation of vascular associated smooth muscle cell proliferation",
+  "n_pos": 20,
+  "mask": [
+   "associated",
+   "muscle",
+   "proliferation",
+   "smooth",
+   "up",
+   "upregulation",
+   "vascular",
+   "vsmc"
+  ],
+  "deletions": 3275,
+  "off_term": "GO:0070286",
+  "off_name": "axonemal dynein complex assembly",
+  "off_mask": [
+   "arm",
+   "assembly",
+   "axonemal",
+   "complex",
+   "dynein"
+  ],
+  "off_deletions": 3277
+ },
+ {
+  "set": "main",
+  "term": "GO:0033619",
+  "name": "membrane protein proteolysis",
+  "n_pos": 29,
+  "mask": [
+   "membrane",
+   "proteolysis"
+  ],
+  "deletions": 2539,
+  "off_term": "GO:0051057",
+  "off_name": "positive regulation of small GTPase mediated signal transduction",
+  "off_mask": [
+   "gtpase",
+   "mediated",
+   "signal",
+   "small",
+   "transduction",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 2530
+ },
+ {
+  "set": "main",
+  "term": "GO:0070169",
+  "name": "positive regulation of biomineral tissue development",
+  "n_pos": 25,
+  "mask": [
+   "biomineral",
+   "development",
+   "tissue"
+  ],
+  "deletions": 1362,
+  "off_term": "GO:0051496",
+  "off_name": "positive regulation of stress fiber assembly",
+  "off_mask": [
+   "assembly",
+   "fiber",
+   "formation",
+   "stress",
+   "up"
+  ],
+  "off_deletions": 1362
+ },
+ {
+  "set": "main",
+  "term": "GO:1902745",
+  "name": "positive regulation of lamellipodium organization",
+  "n_pos": 25,
+  "mask": [
+   "lamellipodium",
+   "organization",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 304,
+  "off_term": "GO:1990266",
+  "off_name": "neutrophil migration",
+  "off_mask": [
+   "migration",
+   "neutrophil"
+  ],
+  "off_deletions": 304
+ },
+ {
+  "set": "main",
+  "term": "GO:2001056",
+  "name": "positive regulation of cysteine-type endopeptidase activity",
+  "n_pos": 96,
+  "mask": [
+   "cysteine",
+   "endopeptidase",
+   "thiol",
+   "type"
+  ],
+  "deletions": 2126,
+  "off_term": "GO:0035330",
+  "off_name": "regulation of hippo signaling",
+  "off_mask": [
+   "hippo",
+   "pathway",
+   "signaling"
+  ],
+  "off_deletions": 2129
+ },
+ {
+  "set": "main",
+  "term": "GO:0048589",
+  "name": "developmental growth",
+  "n_pos": 32,
+  "mask": [
+   "developmental",
+   "growth"
+  ],
+  "deletions": 1086,
+  "off_term": "GO:0045017",
+  "off_name": "glycerolipid biosynthetic process",
+  "off_mask": [
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "glycerolipid",
+   "synthesis"
+  ],
+  "off_deletions": 1087
+ },
+ {
+  "set": "main",
+  "term": "GO:0050709",
+  "name": "negative regulation of protein secretion",
+  "n_pos": 28,
+  "mask": [
+   "down",
+   "downregulation",
+   "secretion"
+  ],
+  "deletions": 226,
+  "off_term": "GO:0080171",
+  "off_name": "lytic vacuole organization",
+  "off_mask": [
+   "lytic",
+   "organisation",
+   "organization",
+   "vacuole"
+  ],
+  "off_deletions": 225
+ },
+ {
+  "set": "main",
+  "term": "GO:1902893",
+  "name": "regulation of miRNA transcription",
+  "n_pos": 58,
+  "mask": [
+   "ii",
+   "microrna",
+   "mirna",
+   "polymerase",
+   "pri",
+   "primary",
+   "promoter",
+   "rna",
+   "transcription"
+  ],
+  "deletions": 5060,
+  "off_term": "GO:0071825",
+  "off_name": "protein-lipid complex organization",
+  "off_mask": [
+   "complex",
+   "lipid",
+   "organisation",
+   "organization",
+   "subunit"
+  ],
+  "off_deletions": 5073
+ },
+ {
+  "set": "main",
+  "term": "GO:0006140",
+  "name": "regulation of nucleotide metabolic process",
+  "n_pos": 45,
+  "mask": [
+   "metabolic",
+   "metabolism",
+   "nucleotide"
+  ],
+  "deletions": 846,
+  "off_term": "GO:0044843",
+  "off_name": "cell cycle G1/S phase transition",
+  "off_mask": [
+   "cycle",
+   "g1",
+   "phase",
+   "transition"
+  ],
+  "off_deletions": 846
+ },
+ {
+  "set": "main",
+  "term": "GO:0034142",
+  "name": "toll-like receptor 4 signaling pathway",
+  "n_pos": 21,
+  "mask": [
+   "like",
+   "pathway",
+   "receptor",
+   "signaling",
+   "signalling",
+   "tlr4",
+   "toll"
+  ],
+  "deletions": 5762,
+  "off_term": "GO:0071577",
+  "off_name": "zinc ion transmembrane transport",
+  "off_mask": [
+   "ii",
+   "ion",
+   "membrane",
+   "transmembrane",
+   "transport",
+   "zinc"
+  ],
+  "off_deletions": 5643
+ },
+ {
+  "set": "main",
+  "term": "GO:0002704",
+  "name": "negative regulation of leukocyte mediated immunity",
+  "n_pos": 33,
+  "mask": [
+   "down",
+   "downregulation",
+   "immune",
+   "immunity",
+   "leucocyte",
+   "leukocyte",
+   "mediated"
+  ],
+  "deletions": 948,
+  "off_term": "GO:1902850",
+  "off_name": "microtubule cytoskeleton organization involved in mitosis",
+  "off_mask": [
+   "cytoskeleton",
+   "dynamic",
+   "microtubule",
+   "mitosis",
+   "organisation",
+   "organization"
+  ],
+  "off_deletions": 949
+ },
+ {
+  "set": "main",
+  "term": "GO:0046683",
+  "name": "response to organophosphorus",
+  "n_pos": 51,
+  "mask": [
+   "organophosphorus"
+  ],
+  "deletions": 0,
+  "off_term": "GO:0003002",
+  "off_name": "regionalization",
+  "off_mask": [
+   "regionalization"
+  ],
+  "off_deletions": 0
+ },
+ {
+  "set": "main",
+  "term": "GO:1900182",
+  "name": "positive regulation of protein localization to nucleus",
+  "n_pos": 51,
+  "mask": [
+   "activation",
+   "localisation",
+   "localization",
+   "nucleus",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 1646,
+  "off_term": "GO:0045930",
+  "off_name": "negative regulation of mitotic cell cycle",
+  "off_mask": [
+   "cycle",
+   "down",
+   "downregulation",
+   "mitotic",
+   "progression",
+   "through"
+  ],
+  "off_deletions": 1648
+ },
+ {
+  "set": "main",
+  "term": "GO:1904646",
+  "name": "cellular response to amyloid-beta",
+  "n_pos": 21,
+  "mask": [
+   "amyloid",
+   "beta"
+  ],
+  "deletions": 1324,
+  "off_term": "GO:0051225",
+  "off_name": "spindle assembly",
+  "off_mask": [
+   "assembly",
+   "biosynthesis",
+   "bipolar",
+   "formation",
+   "spindle"
+  ],
+  "off_deletions": 1325
+ },
+ {
+  "set": "main",
+  "term": "GO:0034470",
+  "name": "ncRNA processing",
+  "n_pos": 153,
+  "mask": [
+   "ncrna",
+   "processing"
+  ],
+  "deletions": 251,
+  "off_term": "GO:0030193",
+  "off_name": "regulation of blood coagulation",
+  "off_mask": [
+   "blood",
+   "coagulation"
+  ],
+  "off_deletions": 252
+ },
+ {
+  "set": "main",
+  "term": "GO:1904358",
+  "name": "positive regulation of telomere maintenance via telomere lengthening",
+  "n_pos": 32,
+  "mask": [
+   "lengthening",
+   "telomere",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 138,
+  "off_term": "GO:0050792",
+  "off_name": "regulation of viral process",
+  "off_mask": [
+   "viral"
+  ],
+  "off_deletions": 137
+ },
+ {
+  "set": "main",
+  "term": "GO:0006874",
+  "name": "intracellular calcium ion homeostasis",
+  "n_pos": 80,
+  "mask": [
+   "calcium",
+   "homeostasis",
+   "intracellular",
+   "ion"
+  ],
+  "deletions": 1546,
+  "off_term": "GO:0010970",
+  "off_name": "transport along microtubule",
+  "off_mask": [
+   "along",
+   "localization",
+   "microtubule",
+   "movement",
+   "transport"
+  ],
+  "off_deletions": 1548
+ },
+ {
+  "set": "main",
+  "term": "GO:0009141",
+  "name": "nucleoside triphosphate metabolic process",
+  "n_pos": 69,
+  "mask": [
+   "metabolic",
+   "metabolism",
+   "nucleoside",
+   "triphosphate"
+  ],
+  "deletions": 620,
+  "off_term": "GO:1905954",
+  "off_name": "positive regulation of lipid localization",
+  "off_mask": [
+   "lipid",
+   "localisation",
+   "localization",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 618
+ },
+ {
+  "set": "main",
+  "term": "GO:0039532",
+  "name": "negative regulation of cytoplasmic pattern recognition receptor signaling pathway",
+  "n_pos": 44,
+  "mask": [
+   "cytoplasmic",
+   "cytosolic",
+   "pathway",
+   "pattern",
+   "receptor",
+   "recognition",
+   "signaling"
+  ],
+  "deletions": 5719,
+  "off_term": "GO:0071577",
+  "off_name": "zinc ion transmembrane transport",
+  "off_mask": [
+   "ii",
+   "ion",
+   "membrane",
+   "transmembrane",
+   "transport",
+   "zinc"
+  ],
+  "off_deletions": 5643
+ },
+ {
+  "set": "main",
+  "term": "GO:0032970",
+  "name": "regulation of actin filament-based process",
+  "n_pos": 179,
+  "mask": [
+   "actin",
+   "based",
+   "filament"
+  ],
+  "deletions": 765,
+  "off_term": "GO:0051258",
+  "off_name": "protein polymerization",
+  "off_mask": [
+   "biosynthesis",
+   "biosynthetic",
+   "formation",
+   "polymer",
+   "polymerization"
+  ],
+  "off_deletions": 765
+ },
+ {
+  "set": "main",
+  "term": "GO:0003073",
+  "name": "regulation of systemic arterial blood pressure",
+  "n_pos": 21,
+  "mask": [
+   "arterial",
+   "blood",
+   "pressure",
+   "systemic"
+  ],
+  "deletions": 288,
+  "off_term": "GO:0072665",
+  "off_name": "protein localization to vacuole",
+  "off_mask": [
+   "localisation",
+   "localization",
+   "vacuole"
+  ],
+  "off_deletions": 287
+ },
+ {
+  "set": "main",
+  "term": "GO:0030203",
+  "name": "glycosaminoglycan metabolic process",
+  "n_pos": 44,
+  "mask": [
+   "glycosaminoglycan",
+   "metabolic",
+   "metabolism"
+  ],
+  "deletions": 550,
+  "off_term": "GO:0032886",
+  "off_name": "regulation of microtubule-based process",
+  "off_mask": [
+   "based",
+   "microtubule"
+  ],
+  "off_deletions": 549
+ },
+ {
+  "set": "main",
+  "term": "GO:0050708",
+  "name": "regulation of protein secretion",
+  "n_pos": 104,
+  "mask": [
+   "secretion"
+  ],
+  "deletions": 159,
+  "off_term": "GO:0141061",
+  "off_name": "disruption of cell in another organism",
+  "off_mask": [
+   "another",
+   "disruption"
+  ],
+  "off_deletions": 160
+ },
+ {
+  "set": "main",
+  "term": "GO:0010660",
+  "name": "regulation of muscle cell apoptotic process",
+  "n_pos": 23,
+  "mask": [
+   "apoptotic",
+   "muscle"
+  ],
+  "deletions": 616,
+  "off_term": "GO:0009132",
+  "off_name": "nucleoside diphosphate metabolic process",
+  "off_mask": [
+   "diphosphate",
+   "metabolic",
+   "metabolism",
+   "nucleoside"
+  ],
+  "off_deletions": 616
+ },
+ {
+  "set": "main",
+  "term": "GO:0019722",
+  "name": "calcium-mediated signaling",
+  "n_pos": 56,
+  "mask": [
+   "calcium",
+   "ion",
+   "mediated",
+   "signaling",
+   "signalling"
+  ],
+  "deletions": 2583,
+  "off_term": "GO:0043407",
+  "off_name": "negative regulation of MAP kinase activity",
+  "off_mask": [
+   "activated",
+   "down",
+   "downregulation",
+   "kinase",
+   "map",
+   "mapk",
+   "mitogen"
+  ],
+  "off_deletions": 2578
+ },
+ {
+  "set": "main",
+  "term": "GO:0045839",
+  "name": "negative regulation of mitotic nuclear division",
+  "n_pos": 25,
+  "mask": [
+   "division",
+   "down",
+   "downregulation",
+   "mitosis",
+   "mitotic",
+   "nuclear"
+  ],
+  "deletions": 1579,
+  "off_term": "GO:0032648",
+  "off_name": "regulation of interferon-beta production",
+  "off_mask": [
+   "beta",
+   "ifn",
+   "interferon",
+   "production"
+  ],
+  "off_deletions": 1579
+ },
+ {
+  "set": "main",
+  "term": "GO:0034440",
+  "name": "lipid oxidation",
+  "n_pos": 44,
+  "mask": [
+   "lipid",
+   "oxidation"
+  ],
+  "deletions": 345,
+  "off_term": "GO:0034109",
+  "off_name": "homotypic cell-cell adhesion",
+  "off_mask": [
+   "adhesion",
+   "homotypic"
+  ],
+  "off_deletions": 345
+ },
+ {
+  "set": "main",
+  "term": "GO:0051972",
+  "name": "regulation of telomerase activity",
+  "n_pos": 37,
+  "mask": [
+   "regulator",
+   "telomerase"
+  ],
+  "deletions": 483,
+  "off_term": "GO:0008283",
+  "off_name": "cell population proliferation",
+  "off_mask": [
+   "population",
+   "proliferation"
+  ],
+  "off_deletions": 483
+ },
+ {
+  "set": "main",
+  "term": "GO:2001236",
+  "name": "regulation of extrinsic apoptotic signaling pathway",
+  "n_pos": 85,
+  "mask": [
+   "apoptotic",
+   "extrinsic",
+   "pathway",
+   "signaling",
+   "signalling"
+  ],
+  "deletions": 2434,
+  "off_term": "GO:1901875",
+  "off_name": "positive regulation of post-translational protein modification",
+  "off_mask": [
+   "acid",
+   "activation",
+   "amino",
+   "modification",
+   "post",
+   "posttranslational",
+   "ptm",
+   "translational",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 2437
+ },
+ {
+  "set": "main",
+  "term": "GO:0010976",
+  "name": "positive regulation of neuron projection development",
+  "n_pos": 38,
+  "mask": [
+   "development",
+   "neuron",
+   "projection"
+  ],
+  "deletions": 955,
+  "off_term": "GO:0048646",
+  "off_name": "anatomical structure formation involved in morphogenesis",
+  "off_mask": [
+   "anatomical",
+   "formation",
+   "morphogenesis",
+   "structure"
+  ],
+  "off_deletions": 955
+ },
+ {
+  "set": "main",
+  "term": "GO:0048284",
+  "name": "organelle fusion",
+  "n_pos": 51,
+  "mask": [
+   "fusion",
+   "organelle"
+  ],
+  "deletions": 343,
+  "off_term": "GO:0050777",
+  "off_name": "negative regulation of immune response",
+  "off_mask": [
+   "down",
+   "downregulation",
+   "immune"
+  ],
+  "off_deletions": 342
+ },
+ {
+  "set": "main",
+  "term": "GO:1903039",
+  "name": "positive regulation of leukocyte cell-cell adhesion",
+  "n_pos": 109,
+  "mask": [
+   "adhesion",
+   "leukocyte",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 490,
+  "off_term": "GO:0046883",
+  "off_name": "regulation of hormone secretion",
+  "off_mask": [
+   "hormone",
+   "secretion"
+  ],
+  "off_deletions": 490
+ },
+ {
+  "set": "main",
+  "term": "GO:0060261",
+  "name": "positive regulation of transcription initiation by RNA polymerase II",
+  "n_pos": 32,
+  "mask": [
+   "ii",
+   "initiation",
+   "polymerase",
+   "promoter",
+   "rna",
+   "transcription"
+  ],
+  "deletions": 5130,
+  "off_term": "GO:0050853",
+  "off_name": "B cell receptor signaling pathway",
+  "off_mask": [
+   "lymphocyte",
+   "pathway",
+   "receptor",
+   "signaling",
+   "signalling"
+  ],
+  "off_deletions": 5135
+ },
+ {
+  "set": "main",
+  "term": "GO:0051205",
+  "name": "protein insertion into membrane",
+  "n_pos": 35,
+  "mask": [
+   "insertion",
+   "integral",
+   "localization",
+   "membrane",
+   "positioning"
+  ],
+  "deletions": 3198,
+  "off_term": "GO:1900151",
+  "off_name": "regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay",
+  "off_mask": [
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "deadenylation",
+   "deadenylylation",
+   "decay",
+   "degradation",
+   "dependent",
+   "mrna",
+   "nuclear",
+   "transcribed"
+  ],
+  "off_deletions": 3199
+ },
+ {
+  "set": "main",
+  "term": "GO:0042742",
+  "name": "defense response to bacterium",
+  "n_pos": 122,
+  "mask": [
+   "bacteria",
+   "bacterium",
+   "defence",
+   "defense"
+  ],
+  "deletions": 125,
+  "off_term": "GO:0035239",
+  "off_name": "tube morphogenesis",
+  "off_mask": [
+   "morphogenesis",
+   "tube"
+  ],
+  "off_deletions": 125
+ },
+ {
+  "set": "main",
+  "term": "GO:0072337",
+  "name": "modified amino acid transport",
+  "n_pos": 21,
+  "mask": [
+   "acid",
+   "amino",
+   "derivative",
+   "modified",
+   "transport"
+  ],
+  "deletions": 2184,
+  "off_term": "GO:1905168",
+  "off_name": "positive regulation of double-strand break repair via homologous recombination",
+  "off_mask": [
+   "break",
+   "dependent",
+   "directed",
+   "double",
+   "hdr",
+   "homologous",
+   "homology",
+   "hrr",
+   "rad51",
+   "recombination",
+   "recombinational",
+   "repair",
+   "rhp51",
+   "strand",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 2176
+ },
+ {
+  "set": "main",
+  "term": "GO:0071560",
+  "name": "cellular response to transforming growth factor beta stimulus",
+  "n_pos": 71,
+  "mask": [
+   "beta",
+   "factor",
+   "growth",
+   "stimulus",
+   "tgf",
+   "tgfbeta",
+   "transforming"
+  ],
+  "deletions": 4672,
+  "off_term": "GO:0065004",
+  "off_name": "protein-DNA complex assembly",
+  "off_mask": [
+   "assembly",
+   "complex",
+   "dna"
+  ],
+  "off_deletions": 4687
+ },
+ {
+  "set": "main",
+  "term": "GO:0006954",
+  "name": "inflammatory response",
+  "n_pos": 72,
+  "mask": [
+   "inflammatory"
+  ],
+  "deletions": 183,
+  "off_term": "GO:0051294",
+  "off_name": "establishment of spindle orientation",
+  "off_mask": [
+   "orientation",
+   "orienting",
+   "spindle"
+  ],
+  "off_deletions": 183
+ },
+ {
+  "set": "main",
+  "term": "GO:0050691",
+  "name": "regulation of defense response to virus by host",
+  "n_pos": 30,
+  "mask": [
+   "antiviral",
+   "defense",
+   "host",
+   "virus"
+  ],
+  "deletions": 356,
+  "off_term": "GO:0002697",
+  "off_name": "regulation of immune effector process",
+  "off_mask": [
+   "effector",
+   "immune"
+  ],
+  "off_deletions": 354
+ },
+ {
+  "set": "main",
+  "term": "GO:0046486",
+  "name": "glycerolipid metabolic process",
+  "n_pos": 169,
+  "mask": [
+   "glycerolipid",
+   "metabolic",
+   "metabolism"
+  ],
+  "deletions": 535,
+  "off_term": "GO:0090068",
+  "off_name": "positive regulation of cell cycle process",
+  "off_mask": [
+   "cycle"
+  ],
+  "off_deletions": 535
+ },
+ {
+  "set": "main",
+  "term": "GO:2001242",
+  "name": "regulation of intrinsic apoptotic signaling pathway",
+  "n_pos": 106,
+  "mask": [
+   "apoptotic",
+   "intrinsic",
+   "mediated",
+   "mitochondrial",
+   "pathway",
+   "signaling",
+   "signalling"
+  ],
+  "deletions": 3795,
+  "off_term": "GO:0071763",
+  "off_name": "nuclear membrane organization",
+  "off_mask": [
+   "membrane",
+   "nuclear",
+   "organisation",
+   "organization"
+  ],
+  "off_deletions": 3794
+ },
+ {
+  "set": "main",
+  "term": "GO:0060306",
+  "name": "regulation of membrane repolarization",
+  "n_pos": 22,
+  "mask": [
+   "membrane",
+   "repolarization"
+  ],
+  "deletions": 2493,
+  "off_term": "GO:0098813",
+  "off_name": "nuclear chromosome segregation",
+  "off_mask": [
+   "chromosome",
+   "nuclear",
+   "segregation"
+  ],
+  "off_deletions": 2498
+ },
+ {
+  "set": "main",
+  "term": "GO:0009991",
+  "name": "response to extracellular stimulus",
+  "n_pos": 154,
+  "mask": [
+   "extracellular",
+   "stimulus"
+  ],
+  "deletions": 581,
+  "off_term": "GO:0009395",
+  "off_name": "phospholipid catabolic process",
+  "off_mask": [
+   "breakdown",
+   "catabolic",
+   "catabolism",
+   "degradation",
+   "phospholipid"
+  ],
+  "off_deletions": 581
+ },
+ {
+  "set": "main",
+  "term": "GO:0032784",
+  "name": "regulation of DNA-templated transcription elongation",
+  "n_pos": 31,
+  "mask": [
+   "dependent",
+   "dna",
+   "elongation",
+   "templated",
+   "transcription"
+  ],
+  "deletions": 4499,
+  "off_term": "GO:1902305",
+  "off_name": "regulation of sodium ion transmembrane transport",
+  "off_mask": [
+   "ion",
+   "membrane",
+   "sodium",
+   "transmembrane",
+   "transport"
+  ],
+  "off_deletions": 4499
+ },
+ {
+  "set": "main",
+  "term": "GO:0071677",
+  "name": "positive regulation of mononuclear cell migration",
+  "n_pos": 55,
+  "mask": [
+   "migration",
+   "mononuclear",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 316,
+  "off_term": "GO:0051235",
+  "off_name": "maintenance of location",
+  "off_mask": [
+   "localization",
+   "location"
+  ],
+  "off_deletions": 316
+ },
+ {
+  "set": "main",
+  "term": "GO:0006664",
+  "name": "glycolipid metabolic process",
+  "n_pos": 52,
+  "mask": [
+   "glycolipid",
+   "metabolic",
+   "metabolism"
+  ],
+  "deletions": 562,
+  "off_term": "GO:1903131",
+  "off_name": "mononuclear cell differentiation",
+  "off_mask": [
+   "differentiation",
+   "mononuclear"
+  ],
+  "off_deletions": 562
+ },
+ {
+  "set": "main",
+  "term": "GO:0045446",
+  "name": "endothelial cell differentiation",
+  "n_pos": 30,
+  "mask": [
+   "differentiation",
+   "endothelial"
+  ],
+  "deletions": 708,
+  "off_term": "GO:1902099",
+  "off_name": "regulation of metaphase/anaphase transition of cell cycle",
+  "off_mask": [
+   "anaphase",
+   "cycle",
+   "metaphase",
+   "transition"
+  ],
+  "off_deletions": 708
+ },
+ {
+  "set": "main",
+  "term": "GO:0016051",
+  "name": "carbohydrate biosynthetic process",
+  "n_pos": 24,
+  "mask": [
+   "anabolic",
+   "anabolism",
+   "biosynthesis",
+   "biosynthetic",
+   "carbohydrate",
+   "formation",
+   "metabolic",
+   "metabolism",
+   "synthesis"
+  ],
+  "deletions": 1689,
+  "off_term": "GO:0000966",
+  "off_name": "RNA 5'-end processing",
+  "off_mask": [
+   "end",
+   "processing",
+   "rna"
+  ],
+  "off_deletions": 1689
+ },
+ {
+  "set": "main",
+  "term": "GO:0043243",
+  "name": "positive regulation of protein-containing complex disassembly",
+  "n_pos": 22,
+  "mask": [
+   "complex",
+   "containing",
+   "disassembly",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 3324,
+  "off_term": "GO:0043112",
+  "off_name": "receptor metabolic process",
+  "off_mask": [
+   "metabolic",
+   "metabolism",
+   "receptor"
+  ],
+  "off_deletions": 3324
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0042273",
+  "name": "ribosomal large subunit biogenesis",
+  "n_pos": 28,
+  "mask": [
+   "assembly",
+   "biogenesis",
+   "large",
+   "ribosomal",
+   "subunit"
+  ],
+  "deletions": 3342,
+  "off_term": "GO:0006405",
+  "off_name": "RNA export from nucleus",
+  "off_mask": [
+   "cytoplasm",
+   "export",
+   "nucleus",
+   "out",
+   "rna",
+   "transport"
+  ],
+  "off_deletions": 3342
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0050769",
+  "name": "positive regulation of neurogenesis",
+  "n_pos": 32,
+  "mask": [
+   "neurogenesis",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 101,
+  "off_term": "GO:0032259",
+  "off_name": "methylation",
+  "off_mask": [
+   "methylation"
+  ],
+  "off_deletions": 101
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0071709",
+  "name": "membrane assembly",
+  "n_pos": 32,
+  "mask": [
+   "assembly",
+   "membrane"
+  ],
+  "deletions": 3024,
+  "off_term": "GO:0000075",
+  "off_name": "cell cycle checkpoint signaling",
+  "off_mask": [
+   "checkpoint",
+   "cycle",
+   "g2",
+   "signal",
+   "signaling",
+   "transduction",
+   "transition"
+  ],
+  "off_deletions": 3018
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0035307",
+  "name": "positive regulation of protein dephosphorylation",
+  "n_pos": 34,
+  "mask": [
+   "acid",
+   "amino",
+   "dephosphorylation",
+   "up",
+   "upregulation"
+  ],
+  "deletions": 1498,
+  "off_term": "GO:0007029",
+  "off_name": "endoplasmic reticulum organization",
+  "off_mask": [
+   "endoplasmic",
+   "er",
+   "organisation",
+   "organization",
+   "reticulum"
+  ],
+  "off_deletions": 1503
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0016556",
+  "name": "mRNA modification",
+  "n_pos": 25,
+  "mask": [
+   "modification",
+   "mrna"
+  ],
+  "deletions": 766,
+  "off_term": "GO:0007286",
+  "off_name": "spermatid development",
+  "off_mask": [
+   "development",
+   "spermatid",
+   "spermiogenesis"
+  ],
+  "off_deletions": 767
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0007229",
+  "name": "integrin-mediated signaling pathway",
+  "n_pos": 42,
+  "mask": [
+   "integrin",
+   "mediated",
+   "pathway",
+   "signaling",
+   "signalling"
+  ],
+  "deletions": 2810,
+  "off_term": "GO:0000038",
+  "off_name": "very long-chain fatty acid metabolic process",
+  "off_mask": [
+   "acid",
+   "chain",
+   "fatty",
+   "long",
+   "metabolic",
+   "metabolism",
+   "very"
+  ],
+  "off_deletions": 2805
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0051865",
+  "name": "protein autoubiquitination",
+  "n_pos": 55,
+  "mask": [
+   "auto",
+   "autoubiquitination",
+   "autoubiquitinylation",
+   "self",
+   "ubiquitination",
+   "ubiquitinylation"
+  ],
+  "deletions": 212,
+  "off_term": "GO:0001895",
+  "off_name": "retina homeostasis",
+  "off_mask": [
+   "homeostasis",
+   "retina"
+  ],
+  "off_deletions": 212
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0048024",
+  "name": "regulation of mRNA splicing, via spliceosome",
+  "n_pos": 57,
+  "mask": [
+   "mrna",
+   "nuclear",
+   "spliceosome",
+   "splicing"
+  ],
+  "deletions": 3845,
+  "off_term": "GO:0031334",
+  "off_name": "positive regulation of protein-containing complex assembly",
+  "off_mask": [
+   "assembly",
+   "complex",
+   "containing",
+   "up",
+   "upregulation"
+  ],
+  "off_deletions": 3836
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0019748",
+  "name": "secondary metabolic process",
+  "n_pos": 23,
+  "mask": [
+   "metabolic",
+   "metabolism",
+   "metabolite",
+   "secondary"
+  ],
+  "deletions": 603,
+  "off_term": "GO:0060249",
+  "off_name": "anatomical structure homeostasis",
+  "off_mask": [
+   "anatomical",
+   "homeostasis",
+   "structure"
+  ],
+  "off_deletions": 604
+ },
+ {
+  "set": "pilot",
+  "term": "GO:0071470",
+  "name": "cellular response to osmotic stress",
+  "n_pos": 20,
+  "mask": [
+   "osmotic",
+   "stress"
+  ],
+  "deletions": 255,
+  "off_term": "GO:0097530",
+  "off_name": "granulocyte migration",
+  "off_mask": [
+   "granulocyte",
+   "migration"
+  ],
+  "off_deletions": 254
+ }
+]

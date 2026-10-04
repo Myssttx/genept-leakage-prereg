@@ -1,0 +1,2 @@
+sentence-transformers/all-MiniLM-L6-v2 (1, 384)
+BAAI/bge-small-en-v1.5 (1, 384)

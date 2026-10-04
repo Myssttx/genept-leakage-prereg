@@ -1,0 +1,89 @@
+
+== GENEPT FILES ==
+Archive:  data/downloads/GenePT_emebdding_v2.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  03-18-2024 13:22   GenePT_emebdding_v2/
+ 19163456  02-19-2024 14:38   GenePT_emebdding_v2/NCBI_UniProt_summary_of_genes.json
+460797248  02-15-2024 08:44   GenePT_emebdding_v2/GenePT_gene_embedding_ada_text.pickle
+909175027  02-26-2024 14:42   GenePT_emebdding_v2/GenePT_gene_protein_embedding_model_3_text.pickle.
+ 10982188  02-19-2024 13:41   GenePT_emebdding_v2/NCBI_summary_of_genes.json
+---------                     -------
+1400117919                     5 files
+GenePT_gene_embedding_ada_text.pickle	460797248 bytes
+  pickle dict entries: 93800; vector dims (first 2000): {1536: 2000}
+GenePT_gene_protein_embedding_model_3_text.pickle.	909175027 bytes
+NCBI_UniProt_summary_of_genes.json	19163456 bytes
+  json dict entries: 33703
+NCBI_summary_of_genes.json	10982188 bytes
+  json dict entries: 33703
+zip_listing.txt	598 bytes
+
+== TEXT / EMBEDDING KEY PAIRING ==
+NCBI_UniProt_summary_of_genes.json vs GenePT_gene_embedding_ada_text.pickle: text=33703 emb=93800 both=33703 text_only=0 emb_only=60097
+NCBI_summary_of_genes.json vs GenePT_gene_embedding_ada_text.pickle: text=33703 emb=93800 both=33703 text_only=0 emb_only=60097
+NCBI_UniProt_summary_of_genes.json vs NCBI_summary_of_genes.json: common keys=33703 identical text=14361 NCBI_summary_of_genes.json longer=0
+
+== SUMMARY TEXT DESCRIPTION ==
+NCBI_UniProt_summary_of_genes.json: n=33703 words min=3 q25=3 median=57 q75=131 max=1410
+  literal substring counts: {'Alliance of Genome Resources': 0, 'provided by RefSeq': 0, 'provided by': 54, 'Predicted to': 4544, 'Gene Ontology': 0, 'GO:': 0}
+NCBI_summary_of_genes.json: n=33703 words min=3 q25=3 median=31 q75=74 max=518
+  literal substring counts: {'Alliance of Genome Resources': 0, 'provided by RefSeq': 0, 'provided by': 0, 'Predicted to': 4541, 'Gene Ontology': 0, 'GO:': 0}
+
+== ALLIANCE TEMPLATE CLASSIFICATION ==
+NCBI_UniProt_summary_of_genes.json: alliance_template=375 (1.1%), curated=26882 (79.8%), mixed=6446 (19.1%)
+  [alliance_template] PLGLB2: Gene Symbol PLGLB2 Predicted to enable serine-type endopeptidase activity. Predicted to be involved in proteolysis. Predicted to be located in extracellular region.
+  [alliance_template] RGPD4: Gene Symbol RGPD4 Predicted to contribute to GTPase activator activity. Predicted to be involved in NLS-bearing protein import into nucleus. Predicted to be part of nuclear pore. Predicted to be active in cytoplasm. Protein summary: One of the 8 copies of RANBP2 clustered close to the chromosome 2 centromere.
+  [alliance_template] BBX: Gene Symbol BBX Enables sequence-specific double-stranded DNA binding activity. Predicted to be involved in regulation of transcription by RNA polymerase II. Predicted to act upstream of or within bone development. Located in cytosol and nucleoplasm. Protein summary: Transcription factor that is necessary for cell cycle progression from G1 to S phase.
+  [alliance_template] LMNTD2: Gene Symbol LMNTD2 Predicted to be a structural constituent of chromatin. Predicted to be involved in regulation of chromatin assembly. Predicted to act upstream of or within positive regulation of mRNA splicing, via spliceosome. Predicted to be active in lamin filament. Protein summary: Computationally mapped potential isoform sequences There are 4 potential isoforms mapped to this entry Align Ad...
+  [alliance_template] SNRNP48: Gene Symbol SNRNP48 Predicted to enable metal ion binding activity. Predicted to be involved in RNA splicing. Located in cytosol and nucleoplasm. Part of U12-type spliceosomal complex. Protein summary: Likely involved in U12-type 5' splice site recognition.
+  [mixed] RAB39A: Gene Symbol RAB39A Predicted to enable GTPase activity. Involved in phagosome acidification and phagosome-lysosome fusion. Located in phagocytic vesicle. Protein summary: Plays a role in the maturation and acidification of phagosomes that engulf pathogens, such as S.aureus and M.tuberculosis. Plays a role in vesicular trafficking. Plays a role in the fusion of phagosomes with lysosomes. Negatively...
+  [mixed] NSF: Gene Symbol NSF Enables PDZ domain binding activity and ionotropic glutamate receptor binding activity. Involved in intracellular protein transport; positive regulation of protein catabolic process; and positive regulation of receptor recycling. Located in Golgi apparatus; cytosol; and plasma membrane. Implicated in developmental and epileptic encephalopathy. Protein summary: Required for vesicle-...
+  [mixed] ZSCAN18: Gene Symbol ZSCAN18 Predicted to enable DNA-binding transcription factor activity, RNA polymerase II-specific and RNA polymerase II cis-regulatory region sequence-specific DNA binding activity. Predicted to be involved in regulation of transcription by RNA polymerase II. Predicted to be located in nucleus. Protein summary: May be involved in transcriptional regulation.
+  [mixed] KLF18: Gene Symbol KLF18 Predicted to enable DNA-binding transcription factor activity, RNA polymerase II-specific and RNA polymerase II cis-regulatory region sequence-specific DNA binding activity. Predicted to be involved in regulation of transcription by RNA polymerase II. Predicted to be located in nucleus. Protein summary: Belongs to the krueppel C2H2-type zinc-finger protein family .
+  [mixed] PSME4: Gene Symbol PSME4 Predicted to enable lysine-acetylated histone binding activity; peptidase activator activity; and proteasome binding activity. Predicted to be involved in DNA repair; proteasomal ubiquitin-independent protein catabolic process; and spermatogenesis, exchange of chromosomal proteins. Located in nucleoplasm. Protein summary: Associated component of the proteasome that specifically r...
+  [curated] MIR3925: Gene Symbol MIR3925 microRNAs (miRNAs) are short (20-24 nt) non-coding RNAs that are involved in post-transcriptional regulation of gene expression in multicellular organisms by affecting both the stability and translation of mRNAs. miRNAs are transcribed by RNA polymerase II as part of capped and polyadenylated primary transcripts (pri-miRNAs) that can be either protein-coding or non-coding. The ...
+  [curated] RNA5SP87: Gene Symbol RNA5SP87
+  [curated] HPYR1: Gene Symbol HPYR1
+  [curated] POU5F1P3: Gene Symbol POU5F1P3
+  [curated] EFNB3: Gene Symbol EFNB3 EFNB3, a member of the ephrin gene family, is important in brain development as well as in its maintenance. Moreover, since levels of EFNB3 expression were particularly high in several forebrain subregions compared to other brain subregions, it may play a pivotal role in forebrain function. The EPH and EPH-related receptors comprise the largest subfamily of receptor protein-tyros...
+NCBI_summary_of_genes.json: alliance_template=2578 (7.6%), curated=28436 (84.4%), mixed=2689 (8.0%)
+  [alliance_template] ONECUT3: Gene Symbol ONECUT3 Enables sequence-specific double-stranded DNA binding activity. Predicted to be involved in regulation of transcription by RNA polymerase II. Predicted to be part of chromatin. Predicted to be active in nucleus.
+  [alliance_template] FOLH1B: Gene Symbol FOLH1B Enables metallocarboxypeptidase activity. Involved in C-terminal protein deglutamylation. Located in extracellular exosome.
+  [alliance_template] DDX52: Gene Symbol DDX52 Enables RNA binding activity. Predicted to be involved in maturation of SSU-rRNA. Located in membrane.
+  [alliance_template] ZNF850: Gene Symbol ZNF850 Predicted to enable DNA-binding transcription activator activity, RNA polymerase II-specific and RNA polymerase II cis-regulatory region sequence-specific DNA binding activity. Predicted to be involved in regulation of transcription by RNA polymerase II. Predicted to be active in nucleus.
+  [alliance_template] MTRNR2L10: Gene Symbol MTRNR2L10 Predicted to enable receptor antagonist activity. Predicted to be involved in negative regulation of execution phase of apoptosis. Predicted to be located in cytoplasm and extracellular region.
+  [mixed] SYCP1: Gene Symbol SYCP1 Enables double-stranded DNA binding activity. Involved in protein homotetramerization. Predicted to be located in synaptonemal complex. Predicted to be active in central element; male germ cell nucleus; and transverse filament.
+  [mixed] TTPAL: Gene Symbol TTPAL Predicted to enable phosphatidylinositol bisphosphate binding activity. Located in membrane.
+  [mixed] EPHA6: Gene Symbol EPHA6 Predicted to enable transmembrane-ephrin receptor activity. Predicted to be involved in axon guidance; positive regulation of kinase activity; and transmembrane receptor protein tyrosine kinase signaling pathway. Located in nucleoplasm.
+  [mixed] MID1IP1: Gene Symbol MID1IP1 Predicted to enable identical protein binding activity and protein C-terminus binding activity. Predicted to be involved in several processes, including negative regulation of microtubule depolymerization; positive regulation of fatty acid biosynthetic process; and protein polymerization. Predicted to be located in cytoplasm and microtubule cytoskeleton. Predicted to be active ...
+  [mixed] COX7B2: Gene Symbol COX7B2 Predicted to enable cytochrome-c oxidase activity. Predicted to be involved in electron transport chain; oxidative phosphorylation; and proton transmembrane transport. Predicted to be located in mitochondrial respirasome. Predicted to be integral component of membrane. Predicted to be part of respiratory chain complex IV.
+  [curated] SH2D3C: Gene Symbol SH2D3C This gene encodes an adaptor protein and member of a cytoplasmic protein family involved in cell migration. The encoded protein contains a putative Src homology 2 (SH2) domain and guanine nucleotide exchange factor-like domain which allows this signaling protein to form a complex with scaffolding protein Crk-associated substrate. Multiple transcript variants encoding different i...
+  [curated] CCDC200: Gene Symbol CCDC200
+  [curated] WDR64: Gene Symbol WDR64
+  [curated] RPL21P65: Gene Symbol RPL21P65
+  [curated] LINC02474: Gene Symbol LINC02474
+
+== HGNC AND ID OVERLAP ==
+HGNC symbols=45187 protein-coding=19299 prev/alias entries=58844
+gene2vec first line tokens=201 (dim=200), genes=24447
+text:NCBI_UniProt_summary_of_genes.json: keys=33703 protein-coding direct=18754 (97.2% of HGNC pc) rescued via prev/alias=157 not_in_HGNC=353
+text:NCBI_summary_of_genes.json: keys=33703 protein-coding direct=18754 (97.2% of HGNC pc) rescued via prev/alias=157 not_in_HGNC=353
+emb:GenePT_gene_embedding_ada_text.pickle: keys=93800 protein-coding direct=18821 (97.5% of HGNC pc) rescued via prev/alias=14516 not_in_HGNC=60324
+gene2vec: keys=24447 protein-coding direct=16617 (86.1% of HGNC pc) rescued via prev/alias=1250 not_in_HGNC=5558
+protein-coding genes present in ALL sources (direct match): 16532
+
+== GO RELEASES ==
+baseline: GAF header ['!gaf-version: 2.2', '!generated-by: GOC', '!date-generated: 2024-04-03T21:10', '!generated-by: GOC', '!date-generated: 2024-03-29T22:12', '!generated-by: GOC', '!date-generated: 2024-03-29T10:27', '!date-generated: 2024-02-09 09:07', '!generated-by: UniProt', '!go-version: http://purl.obolibrary.org/obo/go/releases/2024-01-28/extensions/go-plus.owl', '!generated-by: PANTHER', '!date-generated: 2024-02-13']
+  rows=640678 BP rows=162073 BP NOT-qualified=590 experimental BP (gene,term) pairs, unpropagated=45016 genes=10032
+  OBO ['format-version: 1.2', 'data-version: releases/2024-03-28']; terms=47817 BP terms=30709 obsolete=5505
+current: GAF header ['!gaf-version: 2.2', '!generated-by: GOC', '!date-generated: 2026-05-21T08:10', '!generated-by: GOC', '!date-generated: 2026-05-20T11:45', '!generated-by: UniProt', '!date-generated: 2026-04-30 09:29', '!go-version: http://purl.obolibrary.org/obo/go/releases/2026-04-27/extensions/go-plus.ofn', '!generated-by: PANTHER', '!date-generated: 2026-01-05']
+  rows=906445 BP rows=204919 BP NOT-qualified=621 experimental BP (gene,term) pairs, unpropagated=50751 genes=11629
+  OBO ['format-version: 1.2', 'data-version: releases/2026-07-26']; terms=48340 BP terms=30885 obsolete=10248
+experimental BP pairs in current but not baseline (unpropagated)=9887; in baseline but not current=4152
+terms gaining >=10 new genes (unpropagated): 186
+
+== GENE2PUBMED ==
+human GeneIDs with >=1 PubMed link=163238; median papers=1; max=20402
+
+END OF REPORT

@@ -1,0 +1,4 @@
+data/raw/genept/GenePT_gene_protein_embedding_model_3_text.pickle.: pickle dict entries: 133736; vector dims (first 2000): {3072: 2000}
+NCBI_summary_of_genes.json vs model_3 pickle: text=33703 emb=133736 both=33703 text_only=0 emb_only=100033
+NCBI_UniProt_summary_of_genes.json vs model_3 pickle: text=33703 emb=133736 both=33703 text_only=0 emb_only=100033
+ada pickle vs model_3 pickle: ada=93800 model3=133736 both=93800 ada_only=0 model3_only=39936

@@ -1,0 +1,203 @@
+== FILES ==
+summaries: data/raw/genept/NCBI_summary_of_genes.json
+ada: data/raw/genept/GenePT_gene_embedding_ada_text.pickle
+== HGNC AND SOURCES ==
+HGNC approved=45187 protein-coding=19299 unique prev/alias=56701 ambiguous prev/alias dropped=1443
+summary: keys=33703 mapping={'unresolved': 68, 'direct': 33350, 'via_alias': 234, 'ambiguous_multi_alias': 2} protein-coding=18907
+ada: keys=93800 mapping={'unresolved': 22454, 'direct': 33476, 'via_alias': 147, 'ambiguous_multi_alias': 77} protein-coding=18886
+gene2vec: keys=24447 mapping={'unresolved': 3851, 'direct': 18889, 'via_alias': 1636, 'ambiguous_multi_alias': 7} protein-coding=17803
+UNIVERSE: 17507 genes (universe genes whose summary is only the prefix: 1137)
+== GO LABELS ==
+baseline: obo data-version=releases/2024-03-28 gaf={'exp_bp_rows': 56626, 'dropped_not_in_universe': 1182, 'dropped_NOT': 459, 'kept': 54975, 'dropped_unresolved_symbol': 10}
+baseline: universe genes with >=1 experimental BP annotation = 9691
+current: obo data-version=releases/2026-07-26 gaf={'exp_bp_rows': 67210, 'dropped_not_in_universe': 1338, 'dropped_NOT': 492, 'kept': 60350, 'dropped_unresolved_symbol': 5007, 'dropped_obsolete_or_unknown_term': 23}
+current: universe genes with >=1 experimental BP annotation = 10268
+== TERM SELECTION ==
+candidates (BP, not obsolete, not root, 20-200 positives, non-empty mask) = 1933
+selected = 160 (needed 160)
+main=150 pilot=10
+main terms temporal-eligible (>=10 new_pos, live in current) = 33
+temporal status counts: {('main', 'obsolete_or_missing_in_current'): 6, ('main', 'ok'): 33, ('main', 'too_few_new_pos'): 111, ('pilot', 'obsolete_or_missing_in_current'): 1, ('pilot', 'ok'): 2, ('pilot', 'too_few_new_pos'): 7}
+main: target deletions min=0 median=946.0 max=9349; off-target deletions min=0 median=946.0 max=9923
+main: n_pos min=20 median=40.5 max=197; n_neg min=2000 median=2000.0 max=2000; new_pos min=0 median=3.5 max=46; tneg min=0 median=2000.0 max=2000
+all 160: target deletions min=0 median=946.0 max=9349; off-target deletions min=0 median=946.0 max=9923
+all 160: n_pos min=20 median=39.5 max=197; n_neg min=2000 median=2000.0 max=2000; new_pos min=0 median=3.0 max=46; tneg min=0 median=2000.0 max=2000
+new_pos genes that are also in the term's baseline negatives: total=126 in 70 terms
+off-target terms: distinct=155; also a selected term=16
+selected terms whose target mask deletes 0 tokens over annotated summaries: 1
+== FROZEN TERMS ==
+set	term	name	n_pos	mask	deletions	off_term	off_name	off_mask	off_deletions	n_neg	n_new_pos	eligible
+main	GO:0032720	negative regulation of tumor necrosis factor production	39	alpha down downregulation factor necrosis production tnf tumor	4342	GO:0008535	respiratory chain complex IV assembly	assembly chain complex cytochrome iv oxidase respiratory	4353	2000	1	False
+main	GO:0032465	regulation of cytokinesis	77	cycle cytokinesis	609	GO:0045069	regulation of viral genome replication	genome replication viral	609	2000	1	False
+main	GO:0006505	GPI anchor metabolic process	21	anchor glycosylphosphatidylinositol gpi metabolic metabolism	743	GO:2000781	positive regulation of double-strand break repair	break double repair strand	743	2000	2	False
+main	GO:1990928	response to amino acid starvation	45	acid amino starvation	1394	GO:0006412	translation	anabolism biosynthesis biosynthetic formation synthesis translation	1397	2000	1	False
+main	GO:0045732	positive regulation of protein catabolic process	123	breakdown catabolic catabolism degradation up upregulation	568	GO:0048515	spermatid differentiation	differentiation spermatid	568	2000	24	True
+main	GO:0002027	regulation of heart rate	52	cardiac chronotropy contraction heart rate	372	GO:0097529	myeloid leukocyte migration	leukocyte migration myeloid	372	2000	2	False
+main	GO:0050728	negative regulation of inflammatory response	56	anti down downregulation inflammatory	346	GO:0019915	lipid storage	lipid retention sequestration storage	346	2000	12	True
+main	GO:0070972	protein localization to endoplasmic reticulum	35	endoplasmic er localisation localization reticulum	1566	GO:0032781	positive regulation of ATP-dependent activity	adenosinetriphosphatase atp atpase dependent up upregulation	1569	2000	1	False
+main	GO:0007006	mitochondrial membrane organization	59	membrane mitochondrial organisation organization	3568	GO:0006890	retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum	cis endoplasmic er golgi mediated reticulum retrograde rough transport vesicle	3563	2000	11	True
+main	GO:0007611	learning or memory	29	learning memory	44	GO:0071241	cellular response to inorganic substance	inorganic substance	44	2000	0	False
+main	GO:0043001	Golgi to plasma membrane protein transport	20	golgi membrane plasma transport	4410	GO:0022618	protein-RNA complex assembly	assembly complex ribonucleoprotein rna rnp	4408	2000	0	False
+main	GO:0003006	developmental process involved in reproduction	121	developmental reproduction	151	GO:1903036	positive regulation of response to wounding	physiological up upregulation wounding	149	2000	17	True
+main	GO:0006469	negative regulation of protein kinase activity	111	down downregulation kinase	1850	GO:0170040	proteinogenic amino acid catabolic process	acid amino breakdown catabolic catabolism degradation proteinogenic	1863	2000	1	False
+main	GO:0071692	protein localization to extracellular region	22	extracellular localisation localization region	1788	GO:0014706	striated muscle tissue development	development muscle striated tissue	1783	2000	6	False
+main	GO:0007041	lysosomal transport	87	lysosomal transport	896	GO:0007098	centrosome cycle	centrosome cycle organisation organization	895	2000	13	True
+main	GO:0061013	regulation of mRNA catabolic process	105	catabolic mrna	756	GO:0072006	nephron development	development nephron	756	2000	15	True
+main	GO:0045861	negative regulation of proteolysis	143	down downregulation peptidolysis proteolysis	118	GO:0007601	visual perception	perception sense sensory sight vision visual	118	2000	3	False
+main	GO:0097305	response to alcohol	57	alcohol	59	GO:0035150	regulation of tube size	size tube	58	2000	9	False
+main	GO:0071773	cellular response to BMP stimulus	36	bmp bone morphogenetic stimulus	267	GO:0050808	synapse organization	organisation organization synapse	266	2000	3	False
+main	GO:0031570	DNA integrity checkpoint signaling	76	checkpoint dna integrity signal signaling transduction	4024	GO:0045943	positive regulation of transcription by RNA polymerase I	pol polymerase promoter rna transcription up upregulation	4040	2000	4	False
+main	GO:2001251	negative regulation of chromosome organization	56	chromosome organisation organization	1557	GO:0015931	nucleobase-containing compound transport	compound containing nucleobase transport	1559	2000	6	False
+main	GO:0031507	heterochromatin formation	32	architecture assembly chromatin formation heterochromatin mediated silencing	1867	GO:0006487	protein N-linked glycosylation	acid amino glycosylation linked	1864	2000	21	True
+main	GO:0006890	retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum	23	cis endoplasmic er golgi mediated reticulum retrograde rough transport vesicle	3563	GO:0007006	mitochondrial membrane organization	membrane mitochondrial organisation organization	3568	2000	5	False
+main	GO:0031648	protein destabilization	35	destabilisation destabilization stability	103	GO:0045765	regulation of angiogenesis	angiogenesis	103	2000	6	False
+main	GO:0019369	arachidonic acid metabolic process	23	acid arachidonic metabolic metabolism	1518	GO:0007059	chromosome segregation	chromosome division segregation	1516	2000	1	False
+main	GO:0042269	regulation of natural killer cell mediated cytotoxicity	36	cytotoxicity death killer killing mediated natural nk	818	GO:0090257	regulation of muscle system process	muscle system	818	2000	6	False
+main	GO:0051259	protein complex oligomerization	148	assembly complex formation oligomer oligomerization	3501	GO:0051881	regulation of mitochondrial membrane potential	membrane mitochondrial potential	3504	2000	26	True
+main	GO:0042158	lipoprotein biosynthetic process	51	anabolism biosynthesis biosynthetic formation lipoprotein synthesis	1163	GO:0032231	regulation of actin filament bundle assembly	actin assembly bundle cable filament	1163	2000	1	False
+main	GO:0006886	intracellular protein transport	151	intracellular transport	1180	GO:0001539	cilium or flagellum-dependent cell motility	ciliary cilium dependent flagellar flagellum motility	1178	2000	15	True
+main	GO:0007420	brain development	85	brain development	1035	GO:1901991	negative regulation of mitotic cell cycle phase transition	cycle down downregulation mitotic phase transition	1034	2000	0	False
+main	GO:0045740	positive regulation of DNA replication	20	dna replication up upregulation	2017	GO:0050658	RNA transport	rna transport	2015	2000	1	False
+main	GO:0030301	cholesterol transport	40	cholesterol transport	919	GO:0031638	zymogen activation	activation cleavage proteolytic zymogen	921	2000	10	True
+main	GO:0003012	muscle system process	81	muscle system	818	GO:0042269	regulation of natural killer cell mediated cytotoxicity	cytotoxicity death killer killing mediated natural nk	818	2000	3	False
+main	GO:0051926	negative regulation of calcium ion transport	31	calcium down downregulation ion transport	1757	GO:1902003	regulation of amyloid-beta formation	amyloid beta formation	1755	2000	4	False
+main	GO:0043588	skin development	62	animal development skin	859	GO:0046496	nicotinamide nucleotide metabolic process	metabolic metabolism nicotinamide nucleotide	858	2000	3	False
+main	GO:0006401	RNA catabolic process	98	breakdown catabolic catabolism degradation rna	1749	GO:1901568	fatty acid derivative metabolic process	acid derivative fatty metabolic metabolism	1751	2000	28	True
+main	GO:0001959	regulation of cytokine-mediated signaling pathway	98	chemokine cytokine mediated pathway signaling signalling	3187	GO:0043154	negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	activation apoptotic caspase cysteine down downregulation endopeptidase type	3185	2000	15	True
+main	GO:0034728	nucleosome organization	50	nucleosome organisation organization	317	GO:0071677	positive regulation of mononuclear cell migration	migration mononuclear up upregulation	316	2000	1	False
+main	GO:0007030	Golgi organization	75	apparatus golgi organisation organization	944	GO:0048002	antigen processing and presentation of peptide antigen	antigen peptide presentation processing	943	2000	1	False
+main	GO:0072001	renal system development	65	development renal system	1294	GO:0006506	GPI anchor biosynthetic process	anabolism anchor biosynthesis biosynthetic formation glycosylphosphatidylinositol gpi synthesis	1295	2000	1	False
+main	GO:0062207	regulation of pattern recognition receptor signaling pathway	111	pathway pattern receptor recognition signaling	5212	GO:0006893	Golgi to plasma membrane transport	golgi mediated membrane plasma transport vesicle	5199	2000	46	True
+main	GO:0006979	response to oxidative stress	159	oxidative stress	377	GO:0030071	regulation of mitotic metaphase/anaphase transition	anaphase metaphase mitotic transition	379	2000	33	True
+main	GO:0006790	sulfur compound metabolic process	130	compound metabolic metabolism sulfur sulphur	652	GO:0048705	skeletal system morphogenesis	morphogenesis skeletal system	652	2000	20	True
+main	GO:0032376	positive regulation of cholesterol transport	25	cholesterol transport up upregulation	1000	GO:2000351	regulation of endothelial cell apoptotic process	apoptosis apoptotic death endothelial killing programmed	1004	2000	2	False
+main	GO:0043467	regulation of generation of precursor metabolites and energy	65	energy generation metabolite precursor	324	GO:0033047	regulation of mitotic sister chromatid segregation	chromatid mitotic segregation sister	323	2000	9	False
+main	GO:0009201	ribonucleoside triphosphate biosynthetic process	20	anabolism biosynthesis biosynthetic formation ribonucleoside synthesis triphosphate	1131	GO:0050912	detection of chemical stimulus involved in sensory perception of taste	chemical detection during perception sensory stimulus taste transduction	1143	2000	4	False
+main	GO:0060562	epithelial tube morphogenesis	36	epithelial morphogenesis tube	353	GO:0042593	glucose homeostasis	glucose homeostasis	353	2000	1	False
+main	GO:0006694	steroid biosynthetic process	41	anabolism biosynthesis biosynthetic formation steroid steroidogenesis synthesis	1203	GO:0010959	regulation of metal ion transport	ion metal transport	1204	2000	5	False
+main	GO:0016101	diterpenoid metabolic process	40	diterpenoid metabolic metabolism	530	GO:0016239	positive regulation of macroautophagy	autophagy induced macroautophagy starvation up upregulation	528	2000	2	False
+main	GO:0046578	regulation of Ras protein signal transduction	21	ras signal transduction	1312	GO:0060541	respiratory system development	development respiratory system	1308	2000	1	False
+main	GO:1901617	organic hydroxy compound biosynthetic process	61	anabolism biosynthesis biosynthetic compound formation hydroxy organic synthesis	1232	GO:0043062	extracellular structure organization	biogenesis extracellular organisation organization structure	1234	2000	0	False
+main	GO:0001954	positive regulation of cell-matrix adhesion	36	adhesion matrix up upregulation	733	GO:0007043	cell-cell junction assembly	assembly intercellular junction	734	2000	3	False
+main	GO:0030832	regulation of actin filament length	55	actin filament length	854	GO:0015711	organic anion transport	anion organic transport	855	2000	0	False
+main	GO:0031638	zymogen activation	31	activation cleavage proteolytic zymogen	921	GO:0001837	epithelial to mesenchymal transition	differentiation emt epithelial mesenchymal transition	922	2000	9	False
+main	GO:0043434	response to peptide hormone	76	hormone peptide polypeptide stimulus	966	GO:0010569	regulation of double-strand break repair via homologous recombination	break double homologous recombination repair strand	967	2000	4	False
+main	GO:0046394	carboxylic acid biosynthetic process	118	acid anabolism biosynthesis biosynthetic carboxylic formation synthesis	2055	GO:0042306	regulation of protein import into nucleus	cytoplasm import nucleus transport	2042	2000	13	True
+main	GO:0006692	prostanoid metabolic process	26	metabolic metabolism prostanoid	533	GO:0031112	positive regulation of microtubule polymerization or depolymerization	depolymerization microtubule polymerization up upregulation	532	2000	0	False
+main	GO:0002694	regulation of leukocyte activation	197	activation immune leucocyte leukocyte	1015	GO:0006869	lipid transport	lipid transport	1017	2000	28	True
+main	GO:1901343	negative regulation of vasculature development	69	development down downregulation vasculature	824	GO:1903018	regulation of glycoprotein metabolic process	glycoprotein metabolic metabolism	824	2000	6	False
+main	GO:0046718	symbiont entry into host cell	29	entry host symbiont	135	GO:1903035	negative regulation of response to wounding	down downregulation physiological wounding	135	2000	5	False
+main	GO:0038127	ERBB signaling pathway	29	egf erbb family pathway receptor signaling signalling	9349	GO:0006352	DNA-templated transcription initiation	assembly complex dependent dna initiation polymerase promoter rna templated transcription	9923	2000	8	False
+main	GO:0001704	formation of primary germ layer	39	formation germ layer primary	657	GO:0002687	positive regulation of leukocyte migration	immune leucocyte leukocyte migration up upregulation	657	2000	0	False
+main	GO:0046427	positive regulation of receptor signaling pathway via JAK-STAT	24	cascade jak pathway receptor signaling stat up upregulation	5195	GO:0006893	Golgi to plasma membrane transport	golgi mediated membrane plasma transport vesicle	5199	2000	7	False
+main	GO:0045943	positive regulation of transcription by RNA polymerase I	22	pol polymerase promoter rna transcription up upregulation	4040	GO:0034763	negative regulation of transmembrane transport	down downregulation membrane transmembrane transport	4051	2000	0	False
+main	GO:0002706	regulation of lymphocyte mediated immunity	80	immunity lymphocyte mediated	687	GO:0018209	peptidyl-serine modification	modification peptidyl serine	688	2000	21	True
+main	GO:0002520	immune system development	28	development immune system	1447	GO:0032365	intracellular lipid transport	intracellular lipid transport	1444	2000	1	False
+main	GO:0048515	spermatid differentiation	29	differentiation spermatid	568	GO:0045732	positive regulation of protein catabolic process	breakdown catabolic catabolism degradation up upregulation	568	2000	12	True
+main	GO:0031113	regulation of microtubule polymerization	38	microtubule polymerization	434	GO:1904950	negative regulation of establishment of protein localization	down downregulation localisation localization positioning recruitment	434	2000	4	False
+main	GO:0007204	positive regulation of cytosolic calcium ion concentration	35	calcium concentration cytosol cytosolic elevation ion	1594	GO:0045840	positive regulation of mitotic nuclear division	division mitosis mitotic nuclear up upregulation	1593	2000	7	False
+main	GO:0034067	protein localization to Golgi apparatus	24	apparatus golgi localisation localization	1007	GO:0001910	regulation of leukocyte mediated cytotoxicity	cytotoxicity death immune killing leucocyte leukocyte mediated	1005	2000	1	False
+main	GO:0090169	regulation of spindle assembly	27	assembly formation spindle	1122	GO:0008333	endosome to lysosome transport	endosome lysosome transport	1118	2000	1	False
+main	GO:1903053	regulation of extracellular matrix organization	33	extracellular matrix organisation organization	1038	GO:0051149	positive regulation of muscle cell differentiation	differentiation muscle up upregulation	1039	2000	6	False
+main	GO:0071456	cellular response to hypoxia	61	hypoxia hypoxic lowered oxygen stress tension	361	GO:0010717	regulation of epithelial to mesenchymal transition	epithelial mesenchymal transition	363	2000	3	False
+main	GO:0090150	establishment of protein localization to membrane	105	localisation localization membrane	2761	GO:0001676	long-chain fatty acid metabolic process	acid chain fatty long metabolic metabolism	2753	2000	7	False
+main	GO:0090087	regulation of peptide transport	58	peptide transport	1199	GO:0060390	regulation of SMAD protein signal transduction	signal smad transduction	1198	2000	7	False
+main	GO:0043112	receptor metabolic process	26	metabolic metabolism receptor	3324	GO:0043243	positive regulation of protein-containing complex disassembly	complex containing disassembly up upregulation	3324	2000	0	False
+main	GO:0042632	cholesterol homeostasis	33	cholesterol homeostasis	348	GO:0050728	negative regulation of inflammatory response	anti down downregulation inflammatory	346	2000	11	True
+main	GO:0002702	positive regulation of production of molecular mediator of immune response	51	immune mediator molecular production up upregulation	767	GO:0007286	spermatid development	development spermatid spermiogenesis	767	2000	4	False
+main	GO:0043300	regulation of leukocyte degranulation	21	degranulation exocytosis granule immune leucocyte leukocyte	472	GO:0000281	mitotic cytokinesis	after cytokinesis mitosis mitotic	471	2000	2	False
+main	GO:0050954	sensory perception of mechanical stimulus	46	mechanical mechanosensory perception sensory stimulus	155	GO:0032467	positive regulation of cytokinesis	cytokinesis up upregulation	155	2000	3	False
+main	GO:0003014	renal system process	38	excretory renal system	540	GO:0006687	glycosphingolipid metabolic process	glycosphingolipid metabolic metabolism	540	2000	3	False
+main	GO:0043489	RNA stabilization	39	rna stabilization	1317	GO:0061844	antimicrobial humoral immune response mediated by antimicrobial peptide	antimicrobial humoral immune mediated peptide	1317	2000	9	False
+main	GO:0050727	regulation of inflammatory response	123	inflammatory	183	GO:0051294	establishment of spindle orientation	orientation orienting spindle	183	2000	38	True
+main	GO:0051146	striated muscle cell differentiation	32	differentiation muscle striated	980	GO:0070252	actin-mediated cell contraction	actin contraction mediated	979	2000	2	False
+main	GO:1903533	regulation of protein targeting	27	targeting	129	GO:0007283	spermatogenesis	generation spermatogenesis spermatozoa	129	2000	0	False
+main	GO:0010821	regulation of mitochondrion organization	94	mitochondrion organisation organization	374	GO:0006400	tRNA modification	modification trna	375	2000	12	True
+main	GO:0019731	antibacterial humoral response	29	antibacterial humoral	41	GO:0016311	dephosphorylation	dephosphorylation	41	2000	13	True
+main	GO:0051495	positive regulation of cytoskeleton organization	110	cytoskeleton organisation organization up upregulation	508	GO:0051261	protein depolymerization	breakdown catabolic catabolism degradation depolymerization polymer	509	2000	7	False
+main	GO:0006289	nucleotide-excision repair	36	damage dimer dna excision ner nucleotide pyrimidine repair	2601	GO:0043010	camera-type eye development	camera development eye type	2608	2000	2	False
+main	GO:0060285	cilium-dependent cell motility	34	based cilium dependent flagellar microtubule motility	1630	GO:0051303	establishment of chromosome localization	chromosome localisation localization positioning	1630	2000	9	False
+main	GO:0045598	regulation of fat cell differentiation	31	adipocyte differentiation fat	601	GO:0019748	secondary metabolic process	metabolic metabolism metabolite secondary	603	2000	0	False
+main	GO:0033045	regulation of sister chromatid segregation	55	chromatid segregation sister	117	GO:0061919	process utilizing autophagic mechanism	autophagic mechanism utilizing	116	2000	5	False
+main	GO:0051048	negative regulation of secretion	63	down downregulation secretion	226	GO:0080171	lytic vacuole organization	lytic organisation organization vacuole	225	2000	5	False
+main	GO:0070663	regulation of leukocyte proliferation	114	leukocyte proliferation	477	GO:0050803	regulation of synapse structure or activity	structure synapse	478	2000	9	False
+main	GO:0061564	axon development	31	axon development	813	GO:0030048	actin filament-based movement	actin based filament movement	813	2000	0	False
+main	GO:0044843	cell cycle G1/S phase transition	27	cycle g1 phase transition	846	GO:0006140	regulation of nucleotide metabolic process	metabolic metabolism nucleotide	846	2000	1	False
+main	GO:0035308	negative regulation of protein dephosphorylation	22	acid amino dephosphorylation down downregulation	1484	GO:0043462	regulation of ATP-dependent activity	adenosinetriphosphatase atp atpase dependent	1488	2000	0	False
+main	GO:0001667	ameboidal-type cell migration	60	ameboid ameboidal amoeboid amoeboidal migration type	2033	GO:0045739	positive regulation of DNA repair	dna repair up upregulation	2032	2000	5	False
+main	GO:1902476	chloride transmembrane transport	25	chloride transmembrane transport	1583	GO:0007080	mitotic metaphase chromosome alignment	alignment chromosome metaphase mitotic	1584	2000	6	False
+main	GO:0010959	regulation of metal ion transport	173	ion metal transport	1204	GO:0044272	sulfur compound biosynthetic process	anabolism biosynthesis biosynthetic compound formation sulfur synthesis	1204	2000	18	True
+main	GO:0046635	positive regulation of alpha-beta T cell activation	25	activation alpha beta lymphocyte up upregulation	3161	GO:0001959	regulation of cytokine-mediated signaling pathway	chemokine cytokine mediated pathway signaling signalling	3187	2000	2	False
+main	GO:1904707	positive regulation of vascular associated smooth muscle cell proliferation	20	associated muscle proliferation smooth up upregulation vascular vsmc	3275	GO:0070286	axonemal dynein complex assembly	arm assembly axonemal complex dynein	3277	2000	2	False
+main	GO:0033619	membrane protein proteolysis	29	membrane proteolysis	2539	GO:0051057	positive regulation of small GTPase mediated signal transduction	gtpase mediated signal small transduction up upregulation	2530	2000	1	False
+main	GO:0070169	positive regulation of biomineral tissue development	25	biomineral development tissue	1362	GO:0051496	positive regulation of stress fiber assembly	assembly fiber formation stress up	1362	2000	0	False
+main	GO:1902745	positive regulation of lamellipodium organization	25	lamellipodium organization up upregulation	304	GO:1990266	neutrophil migration	migration neutrophil	304	2000	0	False
+main	GO:2001056	positive regulation of cysteine-type endopeptidase activity	96	cysteine endopeptidase thiol type	2126	GO:0035330	regulation of hippo signaling	hippo pathway signaling	2129	2000	0	False
+main	GO:0048589	developmental growth	32	developmental growth	1086	GO:0045017	glycerolipid biosynthetic process	anabolism biosynthesis biosynthetic formation glycerolipid synthesis	1087	2000	0	False
+main	GO:0050709	negative regulation of protein secretion	28	down downregulation secretion	226	GO:0080171	lytic vacuole organization	lytic organisation organization vacuole	225	2000	2	False
+main	GO:1902893	regulation of miRNA transcription	58	ii microrna mirna polymerase pri primary promoter rna transcription	5060	GO:0071825	protein-lipid complex organization	complex lipid organisation organization subunit	5073	2000	2	False
+main	GO:0006140	regulation of nucleotide metabolic process	45	metabolic metabolism nucleotide	846	GO:0044843	cell cycle G1/S phase transition	cycle g1 phase transition	846	2000	1	False
+main	GO:0034142	toll-like receptor 4 signaling pathway	21	like pathway receptor signaling signalling tlr4 toll	5762	GO:0071577	zinc ion transmembrane transport	ii ion membrane transmembrane transport zinc	5643	2000	0	False
+main	GO:0002704	negative regulation of leukocyte mediated immunity	33	down downregulation immune immunity leucocyte leukocyte mediated	948	GO:1902850	microtubule cytoskeleton organization involved in mitosis	cytoskeleton dynamic microtubule mitosis organisation organization	949	2000	13	True
+main	GO:0046683	response to organophosphorus	51	organophosphorus	0	GO:0003002	regionalization	regionalization	0	2000	4	False
+main	GO:1900182	positive regulation of protein localization to nucleus	51	activation localisation localization nucleus up upregulation	1646	GO:0045930	negative regulation of mitotic cell cycle	cycle down downregulation mitotic progression through	1648	2000	2	False
+main	GO:1904646	cellular response to amyloid-beta	21	amyloid beta	1324	GO:0051225	spindle assembly	assembly biosynthesis bipolar formation spindle	1325	2000	3	False
+main	GO:0034470	ncRNA processing	153	ncrna processing	251	GO:0030193	regulation of blood coagulation	blood coagulation	252	2000	0	False
+main	GO:1904358	positive regulation of telomere maintenance via telomere lengthening	32	lengthening telomere up upregulation	138	GO:0050792	regulation of viral process	viral	137	2000	3	False
+main	GO:0006874	intracellular calcium ion homeostasis	80	calcium homeostasis intracellular ion	1546	GO:0010970	transport along microtubule	along localization microtubule movement transport	1548	2000	6	False
+main	GO:0009141	nucleoside triphosphate metabolic process	69	metabolic metabolism nucleoside triphosphate	620	GO:1905954	positive regulation of lipid localization	lipid localisation localization up upregulation	618	2000	6	False
+main	GO:0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	44	cytoplasmic cytosolic pathway pattern receptor recognition signaling	5719	GO:0071577	zinc ion transmembrane transport	ii ion membrane transmembrane transport zinc	5643	2000	17	True
+main	GO:0032970	regulation of actin filament-based process	179	actin based filament	765	GO:0051258	protein polymerization	biosynthesis biosynthetic formation polymer polymerization	765	2000	8	False
+main	GO:0003073	regulation of systemic arterial blood pressure	21	arterial blood pressure systemic	288	GO:0072665	protein localization to vacuole	localisation localization vacuole	287	2000	5	False
+main	GO:0030203	glycosaminoglycan metabolic process	44	glycosaminoglycan metabolic metabolism	550	GO:0032886	regulation of microtubule-based process	based microtubule	549	2000	7	False
+main	GO:0050708	regulation of protein secretion	104	secretion	159	GO:0141061	disruption of cell in another organism	another disruption	160	2000	9	False
+main	GO:0010660	regulation of muscle cell apoptotic process	23	apoptotic muscle	616	GO:0009132	nucleoside diphosphate metabolic process	diphosphate metabolic metabolism nucleoside	616	2000	3	False
+main	GO:0019722	calcium-mediated signaling	56	calcium ion mediated signaling signalling	2583	GO:0043407	negative regulation of MAP kinase activity	activated down downregulation kinase map mapk mitogen	2578	2000	14	True
+main	GO:0045839	negative regulation of mitotic nuclear division	25	division down downregulation mitosis mitotic nuclear	1579	GO:0032648	regulation of interferon-beta production	beta ifn interferon production	1579	2000	2	False
+main	GO:0034440	lipid oxidation	44	lipid oxidation	345	GO:0034109	homotypic cell-cell adhesion	adhesion homotypic	345	2000	1	False
+main	GO:0051972	regulation of telomerase activity	37	regulator telomerase	483	GO:0008283	cell population proliferation	population proliferation	483	2000	0	False
+main	GO:2001236	regulation of extrinsic apoptotic signaling pathway	85	apoptotic extrinsic pathway signaling signalling	2434	GO:1901875	positive regulation of post-translational protein modification	acid activation amino modification post posttranslational ptm translational up upregulation	2437	2000	6	False
+main	GO:0010976	positive regulation of neuron projection development	38	development neuron projection	955	GO:0048646	anatomical structure formation involved in morphogenesis	anatomical formation morphogenesis structure	955	2000	3	False
+main	GO:0048284	organelle fusion	51	fusion organelle	343	GO:0050777	negative regulation of immune response	down downregulation immune	342	2000	23	True
+main	GO:1903039	positive regulation of leukocyte cell-cell adhesion	109	adhesion leukocyte up upregulation	490	GO:0046883	regulation of hormone secretion	hormone secretion	490	2000	9	False
+main	GO:0060261	positive regulation of transcription initiation by RNA polymerase II	32	ii initiation polymerase promoter rna transcription	5130	GO:0050853	B cell receptor signaling pathway	lymphocyte pathway receptor signaling signalling	5135	2000	2	False
+main	GO:0051205	protein insertion into membrane	35	insertion integral localization membrane positioning	3198	GO:1900151	regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	breakdown catabolic catabolism deadenylation deadenylylation decay degradation dependent mrna nuclear transcribed	3199	2000	5	False
+main	GO:0042742	defense response to bacterium	122	bacteria bacterium defence defense	125	GO:0035239	tube morphogenesis	morphogenesis tube	125	2000	25	True
+main	GO:0072337	modified amino acid transport	21	acid amino derivative modified transport	2184	GO:1905168	positive regulation of double-strand break repair via homologous recombination	break dependent directed double hdr homologous homology hrr rad51 recombination recombinational repair rhp51 strand up upregulation	2176	2000	0	False
+main	GO:0071560	cellular response to transforming growth factor beta stimulus	71	beta factor growth stimulus tgf tgfbeta transforming	4672	GO:0065004	protein-DNA complex assembly	assembly complex dna	4687	2000	3	False
+main	GO:0006954	inflammatory response	72	inflammatory	183	GO:0051294	establishment of spindle orientation	orientation orienting spindle	183	2000	30	True
+main	GO:0050691	regulation of defense response to virus by host	30	antiviral defense host virus	356	GO:0002697	regulation of immune effector process	effector immune	354	2000	2	False
+main	GO:0046486	glycerolipid metabolic process	169	glycerolipid metabolic metabolism	535	GO:0090068	positive regulation of cell cycle process	cycle	535	2000	18	True
+main	GO:2001242	regulation of intrinsic apoptotic signaling pathway	106	apoptotic intrinsic mediated mitochondrial pathway signaling signalling	3795	GO:0071763	nuclear membrane organization	membrane nuclear organisation organization	3794	2000	9	False
+main	GO:0060306	regulation of membrane repolarization	22	membrane repolarization	2493	GO:0098813	nuclear chromosome segregation	chromosome nuclear segregation	2498	2000	2	False
+main	GO:0009991	response to extracellular stimulus	154	extracellular stimulus	581	GO:0009395	phospholipid catabolic process	breakdown catabolic catabolism degradation phospholipid	581	2000	0	False
+main	GO:0032784	regulation of DNA-templated transcription elongation	31	dependent dna elongation templated transcription	4499	GO:1902305	regulation of sodium ion transmembrane transport	ion membrane sodium transmembrane transport	4499	2000	21	True
+main	GO:0071677	positive regulation of mononuclear cell migration	55	migration mononuclear up upregulation	316	GO:0051235	maintenance of location	localization location	316	2000	2	False
+main	GO:0006664	glycolipid metabolic process	52	glycolipid metabolic metabolism	562	GO:1903131	mononuclear cell differentiation	differentiation mononuclear	562	2000	14	True
+main	GO:0045446	endothelial cell differentiation	30	differentiation endothelial	708	GO:1902099	regulation of metaphase/anaphase transition of cell cycle	anaphase cycle metaphase transition	708	2000	2	False
+main	GO:0016051	carbohydrate biosynthetic process	24	anabolic anabolism biosynthesis biosynthetic carbohydrate formation metabolic metabolism synthesis	1689	GO:0000966	RNA 5'-end processing	end processing rna	1689	2000	2	False
+main	GO:0043243	positive regulation of protein-containing complex disassembly	22	complex containing disassembly up upregulation	3324	GO:0043112	receptor metabolic process	metabolic metabolism receptor	3324	2000	3	False
+pilot	GO:0042273	ribosomal large subunit biogenesis	28	assembly biogenesis large ribosomal subunit	3342	GO:0006405	RNA export from nucleus	cytoplasm export nucleus out rna transport	3342	2000	12	True
+pilot	GO:0050769	positive regulation of neurogenesis	32	neurogenesis up upregulation	101	GO:0032259	methylation	methylation	101	2000	3	False
+pilot	GO:0071709	membrane assembly	32	assembly membrane	3024	GO:0000075	cell cycle checkpoint signaling	checkpoint cycle g2 signal signaling transduction transition	3018	2000	0	False
+pilot	GO:0035307	positive regulation of protein dephosphorylation	34	acid amino dephosphorylation up upregulation	1498	GO:0007029	endoplasmic reticulum organization	endoplasmic er organisation organization reticulum	1503	2000	0	False
+pilot	GO:0016556	mRNA modification	25	modification mrna	766	GO:0007286	spermatid development	development spermatid spermiogenesis	767	2000	4	False
+pilot	GO:0007229	integrin-mediated signaling pathway	42	integrin mediated pathway signaling signalling	2810	GO:0000038	very long-chain fatty acid metabolic process	acid chain fatty long metabolic metabolism very	2805	2000	4	False
+pilot	GO:0051865	protein autoubiquitination	55	auto autoubiquitination autoubiquitinylation self ubiquitination ubiquitinylation	212	GO:0001895	retina homeostasis	homeostasis retina	212	2000	1	False
+pilot	GO:0048024	regulation of mRNA splicing, via spliceosome	57	mrna nuclear spliceosome splicing	3845	GO:0031334	positive regulation of protein-containing complex assembly	assembly complex containing up upregulation	3836	2000	11	True
+pilot	GO:0019748	secondary metabolic process	23	metabolic metabolism metabolite secondary	603	GO:0060249	anatomical structure homeostasis	anatomical homeostasis structure	604	2000	2	False
+pilot	GO:0071470	cellular response to osmotic stress	20	osmotic stress	255	GO:0097530	granulocyte migration	granulocyte migration	254	2000	0	False
+== MASKING EXAMPLES (first 2 main terms; first positive gene, by symbol, with >=1 target deletion) ==
+TERM GO:0032720 negative regulation of tumor necrosis factor production | mask=['alpha', 'down', 'downregulation', 'factor', 'necrosis', 'production', 'tnf', 'tumor'] | gene ADIPOQ | deleted 1
+  BEFORE: Gene Symbol ADIPOQ This gene is expressed in adipose tissue exclusively. It encodes a protein with similarity to collagens X and VIII and complement factor C1q. The encoded protein circulates in the plasma and is involved with metabolic and hormonal processes. Mutations in this gene are associated with adiponectin deficiency. Multiple alternatively spliced variants, encoding the same protein, have been identified.
+  AFTER : Gene Symbol ADIPOQ This gene is expressed in adipose tissue exclusively. It encodes a protein with similarity to collagens X and VIII and complement C1q. The encoded protein circulates in the plasma and is involved with metabolic and hormonal processes. Mutations in this gene are associated with adiponectin deficiency. Multiple alternatively spliced variants, encoding the same protein, have been identified.
+TERM GO:0032465 regulation of cytokinesis | mask=['cycle', 'cytokinesis'] | gene AHCTF1 | deleted 1
+  BEFORE: Gene Symbol AHCTF1 Predicted to enable DNA binding activity. Involved in nuclear pore complex assembly and regulation of cytokinesis. Located in nuclear membrane. Colocalizes with chromatin; kinetochore; and nuclear pore outer ring.
+  AFTER : Gene Symbol AHCTF1 Predicted to enable DNA binding activity. Involved in nuclear pore complex assembly and regulation of . Located in nuclear membrane. Colocalizes with chromatin; kinetochore; and nuclear pore outer ring.
+== frozen/SHA256SUMS ==
+e52ce796e67b2cdc96684707f356cff56d6fa7eb72a5bb80365b1df764fbe029  stoplist.txt
+9f1b142b6a27b2357aa814a292d3c303fb915a3881760a49c580b2b22a65d2ba  universe.txt
+44bc1ebd904d1c65465059f2e3551bfa5e24f0eb3ace936c8585ea546993052f  universe_keys.tsv
+eb54b9eef59b70f7a1c0fe6a63ace94ddd2d2fb109f0c8766d2a0ad2353d0aa3  design.json
+ec789b7f8ac8eda01318f2f5718fcc54a53aaaa6690c9a89391c036527ebdf3c  terms.json
+END OF DESIGN REPORT
