@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9476.47it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (285 > 256). Running this sequence through the model will result in indexing errors
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 55/199 [00:00<00:00, 453.74it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 951.87it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (524 > 512). Running this sequence through the model will result in indexing errors
+TRUNCATION DIAGNOSTIC (diagnostic only)
+| model | max_seq_length | summaries > limit | % | target deletions in positives (150 main terms) | at/beyond limit | % |
+|---|---|---|---|---|---|---|
+| minilm | 256 | 216 of 17507 | 1.23 | 6521 | 44 | 0.67 |
+| bge | 512 | 3 of 17507 | 0.02 | 6521 | 0 | 0.00 |

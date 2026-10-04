@@ -1,0 +1,5 @@
+TRUNCATION DIAGNOSTIC (diagnostic only)
+| model | max_seq_length | summaries > limit | % | target deletions in positives (150 main terms) | at/beyond limit | % |
+|---|---|---|---|---|---|---|
+| minilm | 256 | 216 of 17507 | 1.23 | 6521 | 44 | 0.67 |
+| bge | 512 | 3 of 17507 | 0.02 | 6521 | 0 | 0.00 |

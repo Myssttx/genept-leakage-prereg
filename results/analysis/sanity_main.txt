@@ -1,0 +1,8 @@
+SANITY CHECKS (main)
+PASS  random AUROC median between 0.40 and 0.60  (0.5000)
+PASS  minilm full AUROC median > 0.60  (0.8222)
+PASS  150 result files  (150 files)
+PASS  no pos/neg overlap  (frozen=0 evaluated=0)
+PASS  frozen/ checksums still OK  (frozen/SHA256SUMS)
+INFO  CV splits cover every gene once per repeat: 150/150
+INFO  logistic-regression convergence warnings: 0

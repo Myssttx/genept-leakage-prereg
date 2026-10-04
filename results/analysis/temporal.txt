@@ -1,0 +1,10 @@
+TEMPORAL HOLDOUT (exploratory): 33 temporal-eligible main terms
+test positives per term: min=10 median=17.0 max=46
+| feature set | median temporal AUROC |
+|---|---|
+| minilm:full | 0.7730 |
+| minilm:target | 0.7683 |
+| ada:full | 0.7809 |
+| gene2vec | 0.6273 |
+| tfidf:full | 0.8166 |
+median per-term gap ada - gene2vec: CV=0.2077 temporal=0.1246 (same 33 terms)

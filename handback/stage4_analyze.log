@@ -1,0 +1,58 @@
+ANALYSIS (150 terms)
+
+== minilm (primary) ==
+| quantity | n | median | 95% CI | Wilcoxon p | Holm p | zeros |
+|---|---|---|---|---|---|---|
+| L | 150 | 0.0053 | [0.0028, 0.0071] | 1.52e-14 | 3.05e-14 | 1 |
+| R | 150 | 0.0040 | [0.0026, 0.0059] | 4.38e-14 | 4.38e-14 | 1 |
+| D | 150 | 0.0049 | [0.0033, 0.0071] | 1.13e-15 | - | 1 |
+
+== bge (confirmatory) ==
+| quantity | n | median | 95% CI | Wilcoxon p | Holm p | zeros |
+|---|---|---|---|---|---|---|
+| L | 150 | 0.0032 | [0.0020, 0.0052] | 3.39e-13 | - | 1 |
+| R | 150 | 0.0027 | [0.0010, 0.0045] | 8.31e-09 | - | 1 |
+| D | 150 | 0.0034 | [0.0019, 0.0046] | 7.38e-14 | - | 1 |
+
+MATERIAL LEAKAGE: NOT MATERIAL  (MiniLM L CI lower bound > 0 AND median >= 0.02; CI lower=0.0028, median=0.0053)
+
+== SECONDARY: MiniLM L, terms with >=1 target deletion in positives ==
+n=148 median=0.0057 CI=[0.0030, 0.0073] Wilcoxon p=1.13e-14 zeros=0
+
+== EXPLORATORY (not preregistered hypotheses) ==
+| quantity | n | median | 95% CI | Wilcoxon p |
+|---|---|---|---|---|
+| TF-IDF L (offtarget - target) | 150 | 0.0052 | [0.0030, 0.0085] | 9.76e-19 |
+| TF-IDF D (full - target) | 150 | 0.0051 | [0.0030, 0.0081] | 8.82e-19 |
+| MiniLM phrase drop (full - phrase) | 150 | 0.0000 | [0.0000, 0.0000] | 2.05e-10 |
+| bge phrase drop (full - phrase) | 150 | 0.0000 | [0.0000, 0.0000] | 5.21e-11 |
+
+Median AUROC per feature set (exploratory):
+| feature set | median AUROC |
+|---|---|
+| ada:full | 0.8231 |
+| bge:full | 0.8206 |
+| bge:offtarget | 0.8204 |
+| bge:phrase | 0.8198 |
+| bge:rand0 | 0.8195 |
+| bge:rand1 | 0.8196 |
+| bge:rand2 | 0.8217 |
+| bge:target | 0.8137 |
+| gene2vec | 0.6364 |
+| minilm:full | 0.8222 |
+| minilm:offtarget | 0.8218 |
+| minilm:phrase | 0.8196 |
+| minilm:rand0 | 0.8248 |
+| minilm:rand1 | 0.8178 |
+| minilm:rand2 | 0.8214 |
+| minilm:target | 0.8150 |
+| pubmed | 0.6652 |
+| random | 0.5000 |
+| tfidf:full | 0.8652 |
+| tfidf:offtarget | 0.8644 |
+| tfidf:target | 0.8531 |
+| minilm:rand_mean | 0.8211 |
+| bge:rand_mean | 0.8184 |
+
+MiniLM full: percentile of positives among negatives, by whether the summary contains all content tokens of the term name (exploratory, pooled gene-term pairs):
+contains all: n=514 median percentile=96.43; does not: n=8180 median percentile=89.97; Mann-Whitney p=2.59e-16; terms skipped (no name content tokens)=0

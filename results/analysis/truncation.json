@@ -1,0 +1,26 @@
+{
+ "minilm": {
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "max_seq_length": 256,
+  "special_tokens": 2,
+  "universe_summaries": 17507,
+  "summaries_longer_than_limit": 216,
+  "pct_summaries_longer_than_limit": 1.2337921974067516,
+  "main_target_deletions_in_positives": 6521,
+  "deletions_at_or_beyond_limit": 44,
+  "pct_deletions_at_or_beyond_limit": 0.6747431375555897,
+  "positive_term_pairs_with_any_deletion_beyond": 33
+ },
+ "bge": {
+  "model": "BAAI/bge-small-en-v1.5",
+  "max_seq_length": 512,
+  "special_tokens": 2,
+  "universe_summaries": 17507,
+  "summaries_longer_than_limit": 3,
+  "pct_summaries_longer_than_limit": 0.01713600274176044,
+  "main_target_deletions_in_positives": 6521,
+  "deletions_at_or_beyond_limit": 0,
+  "pct_deletions_at_or_beyond_limit": 0.0,
+  "positive_term_pairs_with_any_deletion_beyond": 0
+ }
+}

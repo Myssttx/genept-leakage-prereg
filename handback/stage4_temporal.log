@@ -1,0 +1,44 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17910.26it/s]
+temporal GO:0045732 done
+temporal GO:0050728 done
+temporal GO:0007006 done
+temporal GO:0003006 done
+temporal GO:0007041 done
+temporal GO:0061013 done
+temporal GO:0031507 done
+temporal GO:0051259 done
+temporal GO:0006886 done
+temporal GO:0030301 done
+temporal GO:0006401 done
+temporal GO:0001959 done
+temporal GO:0062207 done
+temporal GO:0006979 done
+temporal GO:0006790 done
+temporal GO:0046394 done
+temporal GO:0002694 done
+temporal GO:0002706 done
+temporal GO:0048515 done
+temporal GO:0042632 done
+temporal GO:0050727 done
+temporal GO:0010821 done
+temporal GO:0019731 done
+temporal GO:0010959 done
+temporal GO:0002704 done
+temporal GO:0039532 done
+temporal GO:0019722 done
+temporal GO:0048284 done
+temporal GO:0042742 done
+temporal GO:0006954 done
+temporal GO:0046486 done
+temporal GO:0032784 done
+temporal GO:0006664 done
+TEMPORAL HOLDOUT (exploratory): 33 temporal-eligible main terms
+test positives per term: min=10 median=17.0 max=46
+| feature set | median temporal AUROC |
+|---|---|
+| minilm:full | 0.7730 |
+| minilm:target | 0.7683 |
+| ada:full | 0.7809 |
+| gene2vec | 0.6273 |
+| tfidf:full | 0.8166 |
+median per-term gap ada - gene2vec: CV=0.2077 temporal=0.1246 (same 33 terms)
